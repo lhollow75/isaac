@@ -1,3 +1,21 @@
+#mention-header {
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  padding: 0px;
+  background: url(img/landing-page-isaac-v3-3-intro-bg.gif) no-repeat center top;
+  background-color: #202a36; }
+  #mention-header .logo-isaac img {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 40px; }
+    @media (max-width: 1200px) {
+      #mention-header .logo-isaac img {
+        width: 40%; } }
+    @media (max-width: 768px) {
+      #mention-header .logo-isaac img {
+        width: 60%; } }
+
 #intro {
   overflow: auto;
   overflow: -moz-scrollbars-none;
@@ -38,16 +56,16 @@
     .intro-line {
       width: 60%; } }
 
-#logo-isaac img {
+.logo-isaac img {
   display: block;
   max-width: 446px;
   margin: auto;
   margin-top: 40px; }
   @media (max-width: 1200px) {
-    #logo-isaac img {
+    .logo-isaac img {
       width: 40%; } }
   @media (max-width: 768px) {
-    #logo-isaac img {
+    .logo-isaac img {
       width: 60%; } }
 
 .search_section {
@@ -612,5 +630,26 @@ footer {
 #linkedin {
   background-image: url(img/rs-linkedin-logo.svg) no-repeat;
   background-size: 24px; }
+
+#mentions {
+  clear: both;
+  padding: 80px 8.11111%;
+  margin: 0;
+  overflow: hidden;
+  overflow: -moz-scrollbars-none;
+  float: left;
+  display: block;
+  width: 60.66667%; }
+  @media (max-width: 1200px) {
+    #mentions {
+      width: 100% / 2; } }
+  @media (max-width: 768px) {
+    #mentions {
+      width: 90%;
+      float: none; } }
+  #mentions p {
+    font-size: 1em;
+    font-weight: 300;
+    color: #3e3e3e; }
 
 /*# sourceMappingURL=main.css.map */
