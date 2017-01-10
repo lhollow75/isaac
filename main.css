@@ -4,17 +4,29 @@
   padding: 0px;
   background: url(img/landing-page-isaac-v3-3-intro-bg.gif) no-repeat center top;
   background-color: #202a36; }
-  #mention-header .logo-isaac img {
+  #mention-header #logo-isaac img {
     display: block;
     max-width: 200px;
     margin: auto;
     margin-top: 40px; }
     @media (max-width: 1200px) {
-      #mention-header .logo-isaac img {
+      #mention-header #logo-isaac img {
         width: 40%; } }
     @media (max-width: 768px) {
-      #mention-header .logo-isaac img {
+      #mention-header #logo-isaac img {
         width: 60%; } }
+
+#logo-isaac img {
+  display: block;
+  max-width: 446px;
+  margin: auto;
+  margin-top: 40px; }
+  @media (max-width: 1200px) {
+    #logo-isaac img {
+      width: 40%; } }
+  @media (max-width: 768px) {
+    #logo-isaac img {
+      width: 60%; } }
 
 #intro {
   overflow: auto;
@@ -54,18 +66,6 @@
       width: 40%; } }
   @media (max-width: 768px) {
     .intro-line {
-      width: 60%; } }
-
-.logo-isaac img {
-  display: block;
-  max-width: 446px;
-  margin: auto;
-  margin-top: 40px; }
-  @media (max-width: 1200px) {
-    .logo-isaac img {
-      width: 40%; } }
-  @media (max-width: 768px) {
-    .logo-isaac img {
       width: 60%; } }
 
 .search_section {

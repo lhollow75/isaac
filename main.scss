@@ -33,7 +33,7 @@ $couleur8: #32425b; // section footer
     }
     
     
-    .logo-isaac img{
+    #logo-isaac img{
         display: block;
         max-width: 200px;
         margin: auto;
@@ -45,6 +45,20 @@ $couleur8: #32425b; // section footer
         @media (max-width: 768px){
             width: 60%;
         }
+    }
+}
+
+#logo-isaac img {
+    display: block;
+    max-width: 446px;
+    margin: auto;
+    margin-top:40px;
+                
+    @media (max-width: 1200px){
+        width: 40%;
+    }
+    @media (max-width: 768px){
+        width: 60%;
     }
 }
 
@@ -106,19 +120,6 @@ $couleur8: #32425b; // section footer
 }
 
 
-.logo-isaac img {
-    display: block;
-    max-width: 446px;
-    margin: auto;
-    margin-top:40px;
-                
-    @media (max-width: 1200px){
-        width: 40%;
-    }
-    @media (max-width: 768px){
-        width: 60%;
-    }
-}
 
 .search_section {
     display: block;
