@@ -2,6 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>ISAAC Intelligence artificielle</title>
 		<link rel="stylesheet" href="main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -31,14 +32,8 @@
         </script>
 	<?php
     require ('../connexionbdd.php');
-	$req = $mysql->prepare("SELECT * FROM roles");
-	$req->execute();
-
-	if($req->rowCount()>=1) {
-		$reponse = $req->fetch();
-		var_dump($reponse);
-	}
     ?>
+	<a class="btn_inscription" href="connexion.php">Se connecter</a>
 	</head>
 
 <body>
