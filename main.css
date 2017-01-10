@@ -113,7 +113,7 @@ input[type=email] {
       padding: 0px;
       border-radius: 5px 5px 0 0; } }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, button {
   outline: none; }
 
 /* Champs de recherche */
@@ -253,17 +253,20 @@ button#getform {
   margin: auto; }
   @media (max-width: 1200px) {
     .button button {
-      height: 25px; } }
+      height: 100%;
+      width: 100%; } }
   @media (max-width: 768px) {
     .button button {
-      height: 25px; } }
+      height: 100%;
+      width: 100%; } }
 
 .sendmail::before {
   display: none;
   content: "Envoyer";
   vertical-align: middle;
   font-size: 2em;
-  color: #fff; }
+  color: #fff;
+  border: none; }
   @media (max-width: 1200px) {
     .sendmail::before {
       display: block;
@@ -276,6 +279,7 @@ button#getform {
       margin-left: -12px; } }
 
 .sendmail {
+  border: none;
   width: 46px;
   height: 43px;
   display: block;
