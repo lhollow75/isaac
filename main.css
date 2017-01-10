@@ -1,5 +1,6 @@
 #intro {
   overflow: auto;
+  overflow: -moz-scrollbars-none;
   padding: 160px 0;
   background: url(img/landing-page-isaac-v3-3-intro-bg.gif) no-repeat center top;
   background-color: #202a36; }
@@ -104,55 +105,55 @@ input#form-mail {
   text-align: left;
   border: 1px solid #c4c4c4;
   border-radius: 10px;
-  width: 100%;
+  width: 96%;
   max-width: 100%;
-  padding: 0px;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
   color: #7b7b7b; }
   @media (max-width: 1200px) {
     input#form-mail {
-      width: 100%;
+      width: 97%;
       border: 1px solid #c4c4c4;
       border-radius: 7px;
-      text-align: center; } }
+      text-align: left; } }
   @media (max-width: 768px) {
     input#form-mail {
-      width: 100%;
+      width: 97%;
       height: 50px;
       font-size: 0.75em;
       padding: 0px;
       border-radius: 5px;
-      text-align: center; } }
+      text-align: left; } }
 
 /* Champs de recherche */
 textarea#form-message {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: 300;
   text-align: left;
   border: 1px solid #c4c4c4;
   border-radius: 10px;
-  width: 100%;
-  padding: 0px;
+  width: 96%;
+  padding: 10px;
   color: #7b7b7b;
-  text-align: center;
   resize: none;
   margin-top: 24px;
   height: 217px; }
   @media (max-width: 1200px) {
     textarea#form-message {
-      width: 100%;
+      width: 97%;
       border: 1px solid #c4c4c4;
       border-radius: 7px;
-      text-align: center; } }
+      text-align: left; } }
   @media (max-width: 768px) {
     textarea#form-message {
-      width: 100%;
+      width: 97%;
       height: 220px;
       font-size: 0.75em;
       padding: 10px 0px;
       border-radius: 5px;
       border: 1px solid #c4c4c4;
-      text-align: center; } }
+      text-align: left; } }
 
 .form-button {
   float: right;
@@ -320,7 +321,8 @@ h2 {
   clear: both;
   padding: 160px 8.11111%;
   margin: 0;
-  overflow: auto; }
+  overflow: hidden;
+  overflow: -moz-scrollbars-none; }
   #section1 .description {
     float: left;
     display: block;
@@ -349,7 +351,8 @@ h2 {
   padding: 160px 8.11111%;
   margin: 0;
   background-color: #eff6fb;
-  overflow: auto;
+  overflow: hidden;
+  overflow: -moz-scrollbars-none;
   text-align: center; }
   #section2 .description {
     float: right;
@@ -380,6 +383,7 @@ h2 {
   padding: 160px 8.11111%;
   padding-bottom: 0px;
   overflow: auto;
+  overflow: -moz-scrollbars-none;
   /* IE10+ */
   background-image: -ms-linear-gradient(top, #D3F2FF 0%, #fff 50%);
   /* Mozilla Firefox */
@@ -442,7 +446,8 @@ h2 {
   padding: 320px 0;
   padding-bottom: 225px;
   margin: auto;
-  overflow: auto; }
+  overflow: auto;
+  overflow: -moz-scrollbars-none; }
   #section4 .description {
     width: 100%;
     margin: auto;
@@ -461,13 +466,15 @@ h2 {
   height: 241px;
   width: 100%;
   margin-top: -100px;
-  overflow: auto; }
+  overflow: auto;
+  overflow: -moz-scrollbars-none; }
 
 #section5 {
   clear: both;
   padding: 160px 8.11111%;
   margin: 0;
   overflow: auto;
+  overflow: -moz-scrollbars-none;
   /* IE10+ */
   background-image: -ms-linear-gradient(bottom, #32425B 40%, #3D89AD 70%, #eff6fb 100%);
   /* Mozilla Firefox */
@@ -510,11 +517,13 @@ h2 {
   background-color: #32425b;
   padding: 160px 8.11111%;
   color: #fff;
-  overflow: auto; }
+  overflow: hidden;
+  overflow: -moz-scrollbars-none; }
   #section6 .bg {
     background: url(img/s6-bg.png) no-repeat top;
     background-size: contain;
-    overflow: auto; }
+    overflow: hidden;
+    overflow: -moz-scrollbars-none; }
     #section6 .bg .description {
       width: 50%;
       display: block;
@@ -529,7 +538,8 @@ footer {
   background-color: #32425b;
   padding: 0 8.11111%;
   padding-bottom: 60px;
-  overflow: auto; }
+  overflow: auto;
+  overflow: -moz-scrollbars-none; }
   footer .footer-line {
     padding-bottom: 60px;
     border-top: 1px solid #617086; }
