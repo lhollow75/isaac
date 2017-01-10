@@ -31,6 +31,13 @@
         </script>
 	<?php
     require ('../connexionbdd.php');
+	$req = $mysql->prepare("SELECT * FROM roles");
+	$req->execute();
+
+	if($req->rowCount()>=1) {
+		$reponse = $req->fetch();
+		var_dump($reponse);
+	}
     ?>
 	</head>
 
