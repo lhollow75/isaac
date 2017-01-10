@@ -90,7 +90,7 @@ input[type=email] {
   border: none;
   color: #7b7b7b;
   margin: auto;
-  width: 100%;
+  width: 96%;
   height: 75px;
   display: block;
   margin: 0;
@@ -139,7 +139,6 @@ input#form-mail {
       width: 97%;
       height: 50px;
       font-size: 0.75em;
-      padding: 0px;
       border-radius: 5px;
       text-align: left; } }
 
@@ -168,7 +167,6 @@ textarea#form-message {
       width: 97%;
       height: 220px;
       font-size: 0.75em;
-      padding: 10px 0px;
       border-radius: 5px;
       border: 1px solid #c4c4c4;
       text-align: left; } }
@@ -535,8 +533,7 @@ h2 {
   background-color: #32425b;
   padding: 160px 8.11111%;
   color: #fff;
-  overflow: hidden;
-  overflow: -moz-scrollbars-none; }
+  overflow: auto; }
   #section6 .bg {
     background: url(img/s6-bg.png) no-repeat top;
     background-size: contain;
@@ -567,14 +564,16 @@ footer {
     width: 30.33333%;
     margin: 0;
     color: #d4d8de;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
     @media (max-width: 1200px) {
       footer .signature {
         width: 50%;
         text-align: center; } }
     @media (max-width: 768px) {
       footer .signature {
-        width: 100%; } }
+        width: 100%;
+        text-align: center; } }
     footer .signature p {
       margin-top: 7px; }
       footer .signature p a {
