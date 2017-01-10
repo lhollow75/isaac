@@ -17,6 +17,9 @@
         <meta name="application-name" content="Isaac"/>
         <meta name="msapplication-TileColor" content="#FFFFFF" />
         <meta name="msapplication-TileImage" content="http://www.isaac-ia.com/mstile-144x144.png" />
+        
+        <script src="https://cdn.optimizely.com/js/8152643656.js"></script>
+
 
         <!-- Hotjar Tracking Code for www.isaac-ia.com -->
         <script>
