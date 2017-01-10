@@ -5,7 +5,6 @@
 		<title>ISAAC Intelligence artificielle</title>
 		<link rel="stylesheet" href="main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-        <meta name="google-site-verification" content="SeKMePScScSJnGIUOzhDMTX20h3k61XIWxcg46gWO38" />
         
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.isaac-ia.com/img/favicon/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.isaac-ia.com/img/favicon/apple-touch-icon-114x114.png" />
@@ -18,9 +17,6 @@
         <meta name="application-name" content="Isaac"/>
         <meta name="msapplication-TileColor" content="#FFFFFF" />
         <meta name="msapplication-TileImage" content="http://www.isaac-ia.com/mstile-144x144.png" />
-        
-        <script src="https://cdn.optimizely.com/js/8152643656.js"></script>
-
 
         <!-- Hotjar Tracking Code for www.isaac-ia.com -->
         <script>
@@ -33,8 +29,16 @@
                 a.appendChild(r);
             })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
-        
-        
+	<?php
+    require ('../connexionbdd.php');
+	$req = $mysql->prepare("SELECT * FROM roles");
+	$req->execute();
+
+	if($req->rowCount()>=1) {
+		$reponse = $req->fetch();
+		var_dump($reponse);
+	}
+    ?>
 	</head>
 
 <body>
@@ -55,7 +59,7 @@
         </div>
         <img class="intro-line" src="img/intro-hr.gif">
 
-		<h1>Hello, je m'appelle Isaac !</h1>
+		<h1>Coucou, je m'appelle Isaac !</h1>
 		<p>Je suis le partenaire sur-mesure pour votre entreprise</p>
         
         <div class="search_section">
