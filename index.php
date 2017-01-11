@@ -229,22 +229,24 @@
             </div>
             
             <div class="description">
+					<form action="envoimail.php" id="contact-form" method="post">
                 
-                    <input type="email" id="form-mail" placeholder="Votre email..."/>
-                    
-                    <textarea type="text" id="form-message" placeholder="Votre message..."></textarea>
-                    
-                    <div class="form-button">
-                        <button id="getform">
-                            <span class="sendmail"></span>
-                        </button>
-                    </div>
+						<input type="email" name="form-mail" id="form-mail" placeholder="Votre email..." required/>
+						
+						<textarea name="your-message" type="text" id="form-message" placeholder="Votre message..." required></textarea>
+				  
+						
+						<button id="getform" type="submit">
+							<span class="sendmail"></span>
+						</button>
+						
+					</form>
 
             </div>
         </div>
     </section>
 
-    
+   
     
     <footer>
         <div class="footer-line"></div>
