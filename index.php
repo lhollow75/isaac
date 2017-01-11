@@ -54,11 +54,11 @@
             <img src="img/isaac-logo.svg" alt="Isaac, votre assistant sur-mesure">
             </a>
         </div>
-        <img class="intro-line" src="img/intro-hr.gif">
-
-		<h1>Hello, je m'appelle Isaac !</h1>
-		<p>Je suis le partenaire sur-mesure pour votre entreprise</p>
+        <img class="intro-line wow fadeIn" data-wow-duration="1s" data-wow-delay="0s" src="img/intro-hr.gif">
         
+        
+		<h1 >Hello, je m'appelle Isaac !</h1>
+		<p>Je suis le partenaire sur-mesure pour votre entreprise</p>
         
         
         <!-- Begin MailChimp Signup Form -->
@@ -107,7 +107,7 @@
     </section>
     
 	<section id="section2">
-        <img src="img/isaac-logo-color.png">
+        <img src="img/isaac-logo-color.png" class="wow rotateIn" data-wow-duration="1s" data-wow-delay="0s">
         
         <div class="description">
             <h2>Plus qu’un simple assistant, je vous accompagne 24h/24.</h2>
@@ -130,19 +130,19 @@
             <h2>Présent à tout moment,<br> je vous offre une expérience cross-platforms</h2>
 
             
-                <div class="platform">
-                    <img class="cp-small" "wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" src="img/cp-laptop.svg" alt="">
+                <div class="platform wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                    <img class="cp-small" src="img/cp-laptop.svg" alt="">
                     <h3>Desktop</h3>
                     <p>Je suis intégré aux ordinateurs de chaque employé, à travers une interface ergonomique et entièrement personnalisable.</p>
                 </div>    
             
-                <div class="platform">
+                <div class="platform wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img class="cp-big"  src="img/cp-objet.svg">
                     <h3>Objet physique</h3>
                     <p>Présent au sein de votre entreprise sous la forme d’objet connecté, je protège vos données, en les traitant en circuit fermé.</p>
                 </div>   
                 
-                <div class="platform">
+                <div class="platform wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                     <img class="cp-small" src="img/cp-smartphone.svg">
                     <h3>Mobile</h3>
                     <p>Responsive, vous pouvez m’emporter partout avec vous, lors de vos rendez-vous professionnels.</p>
