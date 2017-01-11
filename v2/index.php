@@ -30,10 +30,22 @@
                 a.appendChild(r);
             })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
-	<?php
-    require ('../connexionbdd.php');
-    ?>
-	<a class="btn_inscription" href="connexion.php">Se connecter</a>
+	
+	<?php 
+	session_start();
+	if (isset($_SESSION['login']) and $_SESSION['login']==true){
+		var_dump($_SESSION);
+		echo "Bonjour ".utf8_encode($_SESSION["prenom"]);
+		?>
+		<a class="btn_logout" href="../logout.php">Deconnexion</a>
+		<?php
+	} else {
+		?>
+		<a class="btn_inscription" href="connexion.php">Se connecter</a>
+		<a class="btn_inscription" href="../logon.php">S'inscrire</a>
+		<?php
+	}
+	?>
 	</head>
 
 <body>

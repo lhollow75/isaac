@@ -16,6 +16,7 @@ if(isset($_POST) && !empty($_POST['identifiant']) && !empty($_POST['password']) 
 		$reponse = $req->fetch();
 		session_start();
 		$_SESSION['login']=true;
+		$_SESSION['prenom']=$reponse['prenom'];
 		if ($reponse["admin"]==1){
 			$_SESSION['admin']=true;
             
@@ -23,11 +24,11 @@ if(isset($_POST) && !empty($_POST['identifiant']) && !empty($_POST['password']) 
 			$_SESSION['admin']=false;
             
 		}
-		header('location:./index.php/v2');
+		header('location:./v2');
 		
 	}
 	else {
-		header('location:./index.php/v2');
+		header('location:./v2');
 		exit();
 	}
 }
