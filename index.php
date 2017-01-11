@@ -186,14 +186,34 @@
             <p>Restez informé des dernières actualités d’Isaac<br>en souscrivant à la newsletter.</p>            
         </div>
         
+        <!-- Begin MailChimp Signup Form -->
         <div class="search_section">
-            <input type="email" id="email" placeholder="Entrez votre email pour recevoir la newsletter..."/>
+
+            <form action="//trinity-agency.us14.list-manage.com/subscribe/post?u=874c9216b0a378dab24810988&amp;id=393f902eff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                
+                <div id="mc_embed_signup_scroll">
+
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Entrez votre email pour recevoir la newsletter..." required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_874c9216b0a378dab24810988_393f902eff" tabindex="-1" value="">
+                    </div>
+
+                    <div class="clear">
+                        <div class="button">
+                            <button type="submit" value="" name="subscribe" id="mc-embedded-subscribe">
+                                <span class="sendmail">
+                    
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
             
-            <div class="button">
-                <button id="getemail">
-                    <span class="sendmail"></span>
-                </button>
-            </div>
+        </div>
+        <!--End mc_embed_signup-->
     </section>
     
 
