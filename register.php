@@ -1,7 +1,7 @@
 <?php
 require ('connexionbdd.php');
 
-if(isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['password']) && !empty($_POST['email']) && !empty($_POST['telephone'])) {
+if(isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['password']) && !empty($_POST['email']) && !empty($_POST['tel'])) {
 	$prenom = htmlspecialchars($_POST['prenom']);
 	$nom = htmlspecialchars($_POST['nom']);
 	$pass1 = htmlspecialchars($_POST['password']);
@@ -31,9 +31,12 @@ if(isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty(
 		':email'=>$email,
 		':tel'=>$telephone
 		));
-
+		session_start();
 		$_SESSION['login']=true;
+		$_SESSION['prenom']=$prenom;
 		header('location:./v2');
 	}
+} else {
+	echo "ERREUR DE DONNEES";
 }
 ?>
