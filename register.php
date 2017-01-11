@@ -25,11 +25,11 @@ if(isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty(
 		$req = $mysql->prepare("INSERT INTO users (nom, prenom, password, email_1, telephone)
 								VALUES (:nom, :prenom, :mdp, :email, :tel)");
 		$req->execute(array(
-		':nom'=>$nom,
-		':prenom'=>$prenom,
-		':mdp'=>$pass,
-		':email'=>$email,
-		':tel'=>$telephone
+		':nom'=>utf8_decode($nom),
+		':prenom'=>utf8_decode($prenom),
+		':mdp'=>utf8_decode($pass),
+		':email'=>utf8_decode($email),
+		':tel'=>utf8_decode($telephone)
 		));
 		session_start();
 		$_SESSION['login']=true;
