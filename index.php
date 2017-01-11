@@ -113,7 +113,7 @@
             <p>On estime que près de 90% des start-ups échouent lors de la première année : alors, prêts à faire partie des 10% restants&nbsp;?</p>
         </div>
         
-        <img src="img/picto-network.svg">
+        <img class="wow fadeInRight" src="img/picto-network.svg">
     </section>
     
 	<section id="section2">
