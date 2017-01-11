@@ -17,15 +17,19 @@ if(isset($_POST) && !empty($_POST['identifiant']) && !empty($_POST['password']) 
 		session_start();
 		$_SESSION['login']=true;
 		$_SESSION['prenom']=$reponse['prenom'];
-		if ($reponse["admin"]==1){
-			$_SESSION['admin']=true;
-            
-		} else {
-			$_SESSION['admin']=false;
-            
-		}
-		header('location:./v2');
+		$_SESSION['user']=$reponse['id_users'];
 		
+		$req2 = $mysql->prepare("SELECT * FROM societe_user WHERE id_user = :login");
+		$req2->execute(array(
+			':login'=>$reponse['id_users']
+			));
+		if($req2->rowCount()==1) {
+			$_SESSION['societe']=true;
+		} else {
+			$_SESSION['societe']=false;
+		}
+			
+		header('location:./v2');		
 	}
 	else {
 		header('location:./v2');

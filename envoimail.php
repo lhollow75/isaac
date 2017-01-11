@@ -1,5 +1,4 @@
 <?php
-include('mail.php');
 if (!empty($_POST)){
 	// var_dump($_POST);
 	$mail=$_POST['form-mail']; // Déclaration de l'adresse de destination.

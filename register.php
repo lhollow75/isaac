@@ -6,14 +6,14 @@ if(isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty(
 	$nom = htmlspecialchars($_POST['nom']);
 	$pass1 = htmlspecialchars($_POST['password']);
 	$email = htmlspecialchars($_POST['email']);
-	$telephone = htmlspecialchars($_POST['telephone']);
+	$telephone = htmlspecialchars($_POST['tel']);
 	$pass = md5($pass1);
 
-	$req = $mysql->prepare("SELECT * FROM users WHERE email = :email");
+	$req = $mysql->prepare("SELECT * FROM users WHERE email_1 = :email or email_2 = :email");
 	$req->execute(array(
 		':email'=>$email
 		));
-
+	var_dump($req->rowCount());
 	if($req->rowCount()>=1) {
 		$reponse = $req->fetch();
 		session_start();
@@ -31,10 +31,14 @@ if(isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty(
 		':email'=>utf8_decode($email),
 		':tel'=>utf8_decode($telephone)
 		));
+		
+		$lastId = $mysql->lastInsertId();
+		echo $lastId;
 		session_start();
 		$_SESSION['login']=true;
+		$_SESSION['user']=$lastId;
 		$_SESSION['prenom']=$prenom;
-		header('location:./v2');
+		// header('location:./v2');
 	}
 } else {
 	echo "ERREUR DE DONNEES";

@@ -34,13 +34,22 @@
 	<?php 
 	session_start();
 	if (isset($_SESSION['login']) and $_SESSION['login']==true){
+		// var_dump($_SESSION);
 		echo "Bonjour ".utf8_encode($_SESSION["prenom"]);
 		?>
 		<a class="btn_logout" href="../logout.php">Deconnexion</a>
+		<a class="btn_ajout_societe" href="./ajoutsociete.php">Ajouter une société</a>
+		<a class="btn_ajout_societe" href="./creationsociete.php">Aide à la création d'une société</a>
 		<?php
+		if (isset($_SESSION['societe']) and $_SESSION['societe']==true){
+		?>
+			<a class="btn_ajout_societe" href="./messocietes.php">Voir la liste de mes sociétés</a>
+		<?php
+		}
+		
 	} else {
 		?>
-		<a class="btn_inscription" href="connexion.php">Se connecter</a>
+		<a class="btn_connexion" href="connexion.php">Se connecter</a>
 		<a class="btn_inscription" href="../logon.php">S'inscrire</a>
 		<?php
 	}
