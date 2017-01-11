@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>ISAAC Intelligence artificielle</title>
 		<link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/animate.css">
+
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
         
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.isaac-ia.com/img/favicon/apple-touch-icon-57x57.png" />
@@ -52,21 +54,43 @@
             <img src="img/isaac-logo.svg" alt="Isaac, votre assistant sur-mesure">
             </a>
         </div>
-        <img class="intro-line" src="img/intro-hr.gif">
-
-		<h1>Hello, je m'appelle Isaac !</h1>
+        <img class="intro-line wow fadeIn" data-wow-duration="1s" data-wow-delay="0s" src="img/intro-hr.gif">
+        
+        
+		<h1 >Hello, je m'appelle Isaac !</h1>
 		<p>Je suis le partenaire sur-mesure pour votre entreprise</p>
         
+        
+        <!-- Begin MailChimp Signup Form -->
         <div class="search_section">
-            <!--Champs de saisie-->
-            <input type="email" id="email" placeholder="Entrez votre email pour recevoir la newsletter..."/>
-            <!--Bouton d'envoi-->
-            <div class="button">
-                <button type="submit" id="getemail">
-                    <span class="sendmail"></span>
-                </button>
-            </div>
-		</div>
+
+            <form action="//trinity-agency.us14.list-manage.com/subscribe/post?u=874c9216b0a378dab24810988&amp;id=393f902eff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                
+                <div id="mc_embed_signup_scroll">
+
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Entrez votre email pour recevoir la newsletter..." required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_874c9216b0a378dab24810988_393f902eff" tabindex="-1" value="">
+                    </div>
+
+                    <div class="clear">
+                        <div class="button">
+                            <button type="submit" value="" name="subscribe" id="mc-embedded-subscribe">
+                                <span class="sendmail">
+                    
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+            
+        </div>
+        <!--End mc_embed_signup-->
+        
+
         
 	</section>
 
@@ -83,7 +107,7 @@
     </section>
     
 	<section id="section2">
-        <img src="img/isaac-logo-color.png">
+        <img src="img/isaac-logo-color.png" class="wow rotateIn" data-wow-duration="1s" data-wow-delay="0s">
         
         <div class="description">
             <h2>Plus qu’un simple assistant, je vous accompagne 24h/24.</h2>
@@ -106,19 +130,19 @@
             <h2>Présent à tout moment,<br> je vous offre une expérience cross-platforms</h2>
 
             
-                <div class="platform">
+                <div class="platform wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
                     <img class="cp-small" src="img/cp-laptop.svg" alt="">
                     <h3>Desktop</h3>
                     <p>Je suis intégré aux ordinateurs de chaque employé, à travers une interface ergonomique et entièrement personnalisable.</p>
                 </div>    
             
-                <div class="platform">
+                <div class="platform wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img class="cp-big"  src="img/cp-objet.svg">
                     <h3>Objet physique</h3>
                     <p>Présent au sein de votre entreprise sous la forme d’objet connecté, je protège vos données, en les traitant en circuit fermé.</p>
                 </div>   
                 
-                <div class="platform">
+                <div class="platform wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                     <img class="cp-small" src="img/cp-smartphone.svg">
                     <h3>Mobile</h3>
                     <p>Responsive, vous pouvez m’emporter partout avec vous, lors de vos rendez-vous professionnels.</p>
@@ -164,14 +188,34 @@
             <p>Restez informé des dernières actualités d’Isaac<br>en souscrivant à la newsletter.</p>            
         </div>
         
+        <!-- Begin MailChimp Signup Form -->
         <div class="search_section">
-            <input type="email" id="email" placeholder="Entrez votre email pour recevoir la newsletter..."/>
+
+            <form action="//trinity-agency.us14.list-manage.com/subscribe/post?u=874c9216b0a378dab24810988&amp;id=393f902eff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                
+                <div id="mc_embed_signup_scroll">
+
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Entrez votre email pour recevoir la newsletter..." required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_874c9216b0a378dab24810988_393f902eff" tabindex="-1" value="">
+                    </div>
+
+                    <div class="clear">
+                        <div class="button">
+                            <button type="submit" value="" name="subscribe" id="mc-embedded-subscribe">
+                                <span class="sendmail">
+                    
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
             
-            <div class="button">
-                <button id="getemail">
-                    <span class="sendmail"></span>
-                </button>
-            </div>
+        </div>
+        <!--End mc_embed_signup-->
     </section>
     
 
@@ -223,7 +267,8 @@
         </ul>
         
     </footer>
-        
+    </div>
+    
 <!--Analytics Google-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -235,6 +280,13 @@
   ga('send', 'pageview');
 
 </script>
-
 </body>
+
+    
+<!-- Wow -->
+<script src="dist/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+    
 </html>

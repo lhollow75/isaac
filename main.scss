@@ -172,7 +172,7 @@ input[type=email] {
     }
     
 }
-input:focus, textarea:focus {
+input:focus, textarea:focus, button {
     outline: none;
 }
 
@@ -338,7 +338,7 @@ button#getform {
 }
 
 
-.button button  {
+.button button {
     display: block;
     width: 75px;
     height: 75px;
@@ -351,11 +351,12 @@ button#getform {
     
     
     @media (max-width: 1200px){
-        height: 25px;
-
+        height: 100%;
+        width: 100%;
     }
     @media (max-width: 768px){
-        height: 25px;
+        height: 100%;
+        width: 100%;
     }
     
     
@@ -368,6 +369,7 @@ button#getform {
     vertical-align: middle;
     font-size: 2em;
     color: #fff;
+    border: none;
 
     
     @media (max-width: 1200px){
@@ -384,6 +386,7 @@ button#getform {
 }
 
 .sendmail {
+    border: none;
     width: 46px;
     height: 43px;
     display: block;
@@ -397,11 +400,9 @@ button#getform {
     @media (max-width: 768px){
         background: none;
     }
-    
-    
-    
 
 }
+
 
 body {
     margin: 0;
