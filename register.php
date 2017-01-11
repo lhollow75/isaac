@@ -26,7 +26,7 @@ if(isset($_POST) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty(
 								VALUES (:nom, :prenom, :mdp, :email, :tel)");
 		$req->execute(array(
 		':nom'=>utf8_decode($nom),
-		':prenom'=>utf8_decode($prenom),
+		':prenom'=>utf8_encode($prenom),
 		':mdp'=>utf8_decode($pass),
 		':email'=>utf8_decode($email),
 		':tel'=>utf8_decode($telephone)
