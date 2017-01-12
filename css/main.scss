@@ -16,14 +16,15 @@ $couleur6ter: #eff6fb; // section 5
 $couleur7: #32425b; // section 6
 $couleur8: #32425b; // section footer
 
-
+//test
+h1{font-family: Arial;}
 
 
 #mention-header {
     overflow:auto;
     overflow: -moz-scrollbars-none;
     padding: 0px;
-    background: url(img/landing-page-isaac-v3-3-intro-bg.gif) no-repeat center top;
+    background: url(../img/lp-header-bg.gif) no-repeat center top;
     background-color: $couleur1;
 
     
@@ -68,7 +69,7 @@ $couleur8: #32425b; // section footer
     overflow:auto;
     overflow: -moz-scrollbars-none;
     padding: $grid-height*2 0;
-    background: url(img/landing-page-isaac-v3-3-intro-bg.gif) no-repeat center top;
+    background: url(../img/lp-header-bg.gif) no-repeat center top;
     background-color: $couleur1;
 
     
@@ -390,7 +391,7 @@ button#getform {
     width: 46px;
     height: 43px;
     display: block;
-    background: url(img/sent-mail.svg) no-repeat center;
+    background: url(../img/sent-mail.svg) no-repeat center;
     vertical-align: middle;
     margin: auto;
     
@@ -664,7 +665,7 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
 
 #section4{ // Restez informé
     clear: both;
-    background: url(img/lp-section-bg.gif) no-repeat top center;
+    background: url(../img/lp-section-bg.gif) no-repeat top center;
     background-color: #32425b;
     padding: $grid-height*4 0;
     padding-bottom: 225px;
@@ -693,7 +694,7 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
 
 
 .bg1 {
-    background: url(img/s5-bg.png) no-repeat center top;
+    background: url(../img/s5-bg.png) no-repeat center top;
     position: absolute;
     height: 241px;
     width: 100%;
@@ -789,7 +790,7 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
     //overflow: -moz-scrollbars-none;
     
     .bg{
-        background: url(img/s6-bg.png) no-repeat top;
+        background: url(../img/s6-bg.png) no-repeat top;
         background-size: contain;
         overflow:hidden;
         overflow: -moz-scrollbars-none;
@@ -914,17 +915,17 @@ footer {
 
 
 #facebook{
-    background: url(img/rs-facebook-logo.svg) no-repeat center;
+    background: url(../img/rs-facebook-logo.svg) no-repeat center;
     width:24px;
     height:24px;
 }
 #twitter{
-    background: url(img/rs-twitter-logo.svg) no-repeat center;
+    background: url(../img/rs-twitter-logo.svg) no-repeat center;
     width:24px;
     height:24px;
 }
 #linkedin{
-    background-image: url(img/rs-linkedin-logo.svg) no-repeat;
+    background-image: url(../img/rs-linkedin-logo.svg) no-repeat;
     background-size: 24px;
 }
 

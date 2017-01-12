@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>ISAAC Intelligence artificielle</title>
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -113,7 +113,7 @@
             <p>On estime que près de 90% des start-ups échouent lors de la première année : alors, prêts à faire partie des 10% restants&nbsp;?</p>
         </div>
         
-        <img src="img/picto-network.svg">
+        <img class="wow fadeInRight" src="img/picto-network.svg">
     </section>
     
 	<section id="section2">
@@ -136,7 +136,7 @@
         <div class="description">
             
             
-            
+            <!-- travaille bien <3 -->
             <h2>Présent à tout moment,<br> je vous offre une expérience cross-platforms</h2>
 
             
@@ -263,7 +263,7 @@
         
         <div class="signature">  
             <img src="img/cp-objet.svg">
-            <p>Isaac 2017 - Tous droits réservés - <a onclick="ga('send', 'event', 'isaac-lp', 'mentions-legales', 'lien', {'nonInteraction': 1});" href="http://www.isaac-ia.com/mentions.html">Mentions légales</a></p>
+            <p>© Isaac 2017 - Tous droits réservés - <a onclick="ga('send', 'event', 'isaac-lp', 'mentions-legales', 'lien', {'nonInteraction': 1});" href="http://www.isaac-ia.com/mentions.html">Mentions légales</a></p>
         </div>
         
         <ul class="social">
