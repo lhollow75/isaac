@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
 
-        
+        <meta name="viewport" content="initial-scale=1">
         
         <meta name="twitter:card" content="summary_large_image">
 
