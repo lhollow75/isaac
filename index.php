@@ -87,11 +87,11 @@
         
         <img class="intro-line wow fadeIn" data-wow-duration="1s" data-wow-delay="0s" src="img/intro-hr.png">
         
-        <p class="slogan shadow">Vous souhaitez cr&eacute;er votre entreprise<br>et la p&eacute;renniser&nbsp;?</p>
-		<p class="shadow">ISAAC vous libère du temps et de l'&eacute;nergie pour que<br> vous exerciez votre c&oelig;ur de m&eacute;tier.</p>
+        <p class="slogan shadow wow fadeInRight">Vous souhaitez cr&eacute;er votre entreprise<br>et la p&eacute;renniser&nbsp;?</p>
+		<p class="shadow wow fadeInLeft">ISAAC vous libère du temps et de l'&eacute;nergie pour que<br> vous exerciez votre c&oelig;ur de m&eacute;tier.</p>
         
         
-        <p><button id="plus"><a href="http://isaac-ia.com#section3">En savoir plus</a></button></p>
+        <p><button id="plus" class="wow fadeInUp"><a href="http://isaac-ia.com#section3">En savoir plus</a></button></p>
         
         
         

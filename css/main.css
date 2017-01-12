@@ -79,13 +79,23 @@ video {
   border-radius: 7px;
   border: none;
   background-color: #4baddc;
-  max-width: 300px; }
+  max-width: 300px;
+  min-width: 200px;
+  transition: all 300ms ease; }
 
 #plus a {
   color: #fff;
   font-size: 1.5em;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; }
+  @media (max-width: 768px) {
+    #plus a {
+      font-size: 1.7em; } }
+
+#plus:hover {
+  background-color: #b364d7;
+  transition: all 300ms ease; }
 
 #intro {
   overflow: hidden;
@@ -344,7 +354,7 @@ button#getform {
   display: none;
   content: "Envoyer";
   vertical-align: middle;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fff;
   border: none; }
   @media (max-width: 1200px) {
@@ -356,7 +366,8 @@ button#getform {
     .sendmail::before {
       display: block;
       margin-top: 8px;
-      margin-left: -12px; } }
+      margin-left: -12px;
+      font-size: 1.7em; } }
 
 .sendmail {
   border: none;
