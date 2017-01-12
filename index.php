@@ -59,23 +59,37 @@
 <div class="lp">
     
 	<section id="intro">
+        
+    
         <div id="logo-isaac">
             <a href="http://www.isaac-ia.com" title="Retour à l'accueil">
             <img src="img/isaac-logo.svg" alt="Isaac, votre assistant sur-mesure">
             </a>
         </div>
+        
         <img class="intro-line wow fadeIn" data-wow-duration="1s" data-wow-delay="0s" src="img/intro-hr.png">
-        <p class="slogan">Vous souhaitez cr&eacute;er votre entreprise<br>et la p&eacute;renniser&nbsp;?</p>
-		<p>ISAAC vous libère du temps et de l'&eacute;nergie pour que<br> vous exerciez votre c&oelig;ur de m&eacute;tier.</p>
         
-        <!--<button>En savoir plus</button>-->
+        <p class="slogan shadow">Vous souhaitez cr&eacute;er votre entreprise<br>et la p&eacute;renniser&nbsp;?</p>
+		<p class="shadow">ISAAC vous libère du temps et de l'&eacute;nergie pour que<br> vous exerciez votre c&oelig;ur de m&eacute;tier.</p>
         
-        <video autoplay loop poster="video/isaac-lp-video-preview.jpg" id="vid">
-            <source src="video/isaac-lp-video-bg.webm" type="video/webm">
-            <source src="video/isaac-lp-video-bg.mp4" type="video/mp4">
-            <source src="video/isaac-lp-video-bg.ogv" type="video/ogg">>
-            <p>Votre navigateur ne supporte pas l'élément vidéo.</p> 
-        </video>
+        
+        <p><button id="plus"><a href="http://isaac-ia.com#section3">En savoir plus</a></button></p>
+        
+        
+        
+        
+        <figure id="fashion">
+            <video autoplay loop poster="video/isaac-lp-video-preview.jpg" id="vid">
+                <source src="video/isaac-lp-video-bg.webm" type="video/webm">
+                <source src="video/isaac-lp-video-bg.mp4" type="video/mp4">
+                <source src="video/isaac-lp-video-bg.ogv" type="video/ogg">>
+                <p>Votre navigateur ne supporte pas l'élément vidéo.</p> 
+            </video>
+            
+            <div id="vid-cover"></div>
+
+        </figure>
+            
     </section>
 
     
@@ -95,14 +109,15 @@
     </section>
     
 	<section id="section2">
-        <img src="img/mobile-focus.png" class="wow rotateIn" data-wow-duration="1s" data-wow-delay="0s">
+        <img src="img/mobile-focus.png" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
         
         <div class="description">
             <h1>Experts, conseillers, outils indispensables : ISAAC vous propose des solutions sur-mesure.</h1>
             
-            <p>Plus qu’un simple conseiller, il vous accompagne 24h/24 et 7j/7. ISAAC réponds à toutes vos questions <strong>en temps réel</strong> mais est également force de propositions et vous soumet, selon vos besoins, des solutions innovantes et différenciantes.</p>
+            <p>Plus qu’un simple conseiller, il vous accompagne 24h/24 et 7j/7. ISAAC répond à toutes vos questions <strong>en temps réel</strong> mais est également force de propositions et vous soumet, <strong>selon vos besoins,</strong> des solutions innovantes et différenciantes.</p>
             
-            <p>Automatisation des tâches, gestion des documents administratifs, mise à disposition d’outils et de solutions stratégiques, suivi tout au long de votre projet : présent sur desktop, mobile et sous la forme d’un objet connecté, il est disponible à tout moment et partout avec vous. ISAAC met ses capacités d’analyse à votre service. </p>
+            <p>Automatisation des tâches, gestion des documents administratifs, mise à disposition d’outils et de solutions stratégiques, suivi <strong>tout au long de votre projet :</strong> présent sur desktop, mobile et sous la forme d’un objet connecté, il est <strong>disponible à tout moment</strong> et partout avec vous.<br>
+            ISAAC met ses capacités d’analyse à votre service. </p>
         </div>
     </section>
     
@@ -116,25 +131,25 @@
             <h1>L’ensemble de ses fonctionnalités,<br>
                 pour vous aider dans votre projet</h2>
             
-            <div class="article">
+            <div class="article wow fadeInLeft">
                 <img src="img/feature-1.svg" alt="Aide">
                 
                 <p>Il simplifie et automatise toutes vos démarches administratives.</p>
             </div>
             
-            <div class="article">
+            <div class="article wow fadeInRight">
                 <img src="img/feature-2.svg" alt="Synthèse">
                 
                 <p>Il vous apporte un suivi et un accompagnement en temps réel à chaque étape de votre projet.</p>
             </div>
             
-            <div class="article">
+            <div class="article wow fadeInLeft">
                 <img src="img/feature-3.svg" alt="Informations">
                 
                 <p>Il scanne, analyse et classe vos courriers et documents.</p>
             </div>
             
-            <div class="article">
+            <div class="article wow fadeInRight">
                 <img src="img/feature-4.svg" alt="Accompagnement">
                 
                 <p>Il vous suggère des outils et des solutions stratégiques sur-mesure pour votre entreprise.</p>
@@ -145,8 +160,8 @@
     
     
     
-    <section>
-        <p class="slogan"><strong>90%</strong> des startups échouent lors de la première année.<br><strong>Ensemble, inversons la tendance.</strong></p>
+    <section id="section7">
+        <p class="slogan wow fadeInUp"><strong>90%</strong> des startups échouent lors de la première année.<br><strong>Ensemble, inversons la tendance.</strong></p>
     </section>
 
     
@@ -202,11 +217,13 @@
 						
 						<textarea name="your-message" type="text" id="form-message" placeholder="Votre message..." required></textarea>
 				  
+                        <div class="button2">
+
+                            <button id="getform" type="submit">
+                                <span class="sendmail"></span>
+                            </button>
 						
-						<button id="getform" type="submit">
-							<span class="sendmail"></span>
-						</button>
-						
+                        </div>
 					</form>
 
             </div>
@@ -219,8 +236,8 @@
         <div class="footer-line"></div>
         
         <div class="signature">  
-            <img src="img/cp-objet.svg">
-            <p>© Isaac 2017 - Tous droits réservés - <a onclick="ga('send', 'event', 'isaac-lp', 'mentions-legales', 'lien', {'nonInteraction': 1});" href="http://www.isaac-ia.com/mentions.html">Mentions légales</a></p>
+            <img src="img/isaac-picto.svg">
+            <p>© ISAAC 2017 - Tous droits réservés - <a onclick="ga('send', 'event', 'isaac-lp', 'mentions-legales', 'lien', {'nonInteraction': 1});" href="http://www.isaac-ia.com/mentions.html">Mentions légales</a></p>
         </div>
         
         <ul class="social">
