@@ -80,7 +80,7 @@ video {
 #intro {
   overflow: hidden;
   overflow: -moz-scrollbars-none;
-  padding: 160px 0;
+  padding: 160px 0 0 0;
   color: #fff;
   height: 640px; }
   @media (max-width: 1200px) {
@@ -88,7 +88,7 @@ video {
       padding: 160px 0 0 0; } }
   @media (max-width: 768px) {
     #intro {
-      padding: 96px 0 0 0; } }
+      padding: 80px 0 0 0; } }
   #intro p {
     font-size: 1.5em;
     margin: 30px auto;

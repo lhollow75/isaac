@@ -135,7 +135,7 @@ video{
 #intro{
     overflow: hidden;
     overflow: -moz-scrollbars-none;
-    padding: $grid-height*2 0;
+    padding: $grid-height*2 0 0 0;
     color: #fff;
     height: 640px;
 
@@ -144,7 +144,7 @@ video{
         padding: $grid-height*2 0 0 0;
     }
     @media (max-width: 768px){
-        padding: $grid-height*1.2 0 0 0;
+        padding: $grid-height 0 0 0;
     }
     
 
