@@ -3,7 +3,7 @@ require('../connexionbdd.php');
 session_start();
 
 if(isset($_POST) && !empty($_POST['nom'])) {
-	var_dump($_POST);
+	// var_dump($_POST);
 	$nom = htmlspecialchars($_POST['nom']);
 	$formeJuridique = htmlspecialchars($_POST['formeJuridique']);
 	$email = htmlspecialchars($_POST['email']);
@@ -26,7 +26,7 @@ if(isset($_POST) && !empty($_POST['nom'])) {
 		$reponse = $req->fetch();
 		session_start();
 		$_SESSION['societe']=false;
-		echo "trouvé";
+		// echo "trouvé";
 		//header('location:./');
 	}
 	else {
@@ -50,7 +50,7 @@ if(isset($_POST) && !empty($_POST['nom'])) {
 		session_start();
 		$_SESSION['login']=true;
 		$_SESSION['societe']=true;
-		// header('location:./');
+		header('location:./');
 		
 		$req = $mysql->prepare("INSERT INTO societe_user (id_societe, id_user) VALUES (:idsociete, :iduser)");
 		$req->execute(array(
