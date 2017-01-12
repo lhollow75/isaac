@@ -2,13 +2,13 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>ISAAC Intelligence artificielle</title>
-		<link rel="stylesheet" href="css/main.css">
+		<title>ISAAC - Optimisez la création de votre entreprise</title>
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
 
         
         
-<meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:card" content="summary_large_image">
 
         <meta property="og:image" content="http://www.isaac-ia.com/img/isaac-logo.jpg" />
     <meta property="og:title" content="ISAAC Intelligence artificielle" />
