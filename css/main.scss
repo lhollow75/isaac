@@ -378,7 +378,7 @@ textarea#form-message {
     padding: 10px 10px;
     //border: 1px solid #c4c4c4;
     border-left: none;
-    max-width: 950px;
+    max-width: 830px;
 
     border-radius: 0 10px 10px 0;
     //background-color: #fff;
@@ -575,7 +575,6 @@ h2 {
     margin: 0;
     overflow:hidden;
     overflow: -moz-scrollbars-none;
-    margin-top: -80px;
 
 
     .description{
@@ -591,8 +590,6 @@ h2 {
         @media (max-width: 768px){
             width: 90%;
             float: none;
-            margin-top: 80px;
-
         }
         
         p {
