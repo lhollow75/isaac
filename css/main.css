@@ -1,8 +1,11 @@
+h1 {
+  font-family: Arial; }
+
 #mention-header {
   overflow: auto;
   overflow: -moz-scrollbars-none;
   padding: 0px;
-  background: url(img/landing-page-isaac-v3-3-intro-bg.gif) no-repeat center top;
+  background: url(../img/lp-header-bg.gif) no-repeat center top;
   background-color: #202a36; }
   #mention-header #logo-isaac img {
     display: block;
@@ -32,7 +35,7 @@
   overflow: auto;
   overflow: -moz-scrollbars-none;
   padding: 160px 0;
-  background: url(img/landing-page-isaac-v3-3-intro-bg.gif) no-repeat center top;
+  background: url(../img/lp-header-bg.gif) no-repeat center top;
   background-color: #202a36; }
   @media (max-width: 1200px) {
     #intro {
@@ -283,7 +286,7 @@ button#getform {
   width: 46px;
   height: 43px;
   display: block;
-  background: url(img/sent-mail.svg) no-repeat center;
+  background: url(../img/sent-mail.svg) no-repeat center;
   vertical-align: middle;
   margin: auto; }
   @media (max-width: 1200px) {
@@ -461,7 +464,7 @@ h2 {
 
 #section4 {
   clear: both;
-  background: url(img/lp-section-bg.gif) no-repeat top center;
+  background: url(../img/lp-section-bg.gif) no-repeat top center;
   background-color: #32425b;
   padding: 320px 0;
   padding-bottom: 225px;
@@ -481,7 +484,7 @@ h2 {
       font-weight: 100; }
 
 .bg1 {
-  background: url(img/s5-bg.png) no-repeat center top;
+  background: url(../img/s5-bg.png) no-repeat center top;
   position: absolute;
   height: 241px;
   width: 100%;
@@ -539,7 +542,7 @@ h2 {
   color: #fff;
   overflow: auto; }
   #section6 .bg {
-    background: url(img/s6-bg.png) no-repeat top;
+    background: url(../img/s6-bg.png) no-repeat top;
     background-size: contain;
     overflow: hidden;
     overflow: -moz-scrollbars-none; }
@@ -621,17 +624,17 @@ footer {
       margin-right: 0px; }
 
 #facebook {
-  background: url(img/rs-facebook-logo.svg) no-repeat center;
+  background: url(../img/rs-facebook-logo.svg) no-repeat center;
   width: 24px;
   height: 24px; }
 
 #twitter {
-  background: url(img/rs-twitter-logo.svg) no-repeat center;
+  background: url(../img/rs-twitter-logo.svg) no-repeat center;
   width: 24px;
   height: 24px; }
 
 #linkedin {
-  background-image: url(img/rs-linkedin-logo.svg) no-repeat;
+  background-image: url(../img/rs-linkedin-logo.svg) no-repeat;
   background-size: 24px; }
 
 #mentions {
