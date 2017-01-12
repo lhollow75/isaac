@@ -10,7 +10,7 @@
         
 <meta name="twitter:card" content="summary_large_image">
 
-        <meta property="og:image" content="http://www.isaac-ia.com/img/isaac-logo.svg" />
+        <meta property="og:image" content="http://www.isaac-ia.com/img/isaac-logo.jpg" />
     <meta property="og:title" content="ISAAC Intelligence artificielle" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://isaac-ia.com/" />
@@ -20,7 +20,7 @@
     <meta name="twitter:description" content="Je suis ISAAC et je vous accompagne dans la création de votre boîte ! :)">
     <meta name="twitter:site" content="@isaac__ia">
     <meta name="twitter:creator" content="@isaac__ia">
-    <meta name="twitter:image" content="http://www.isaac-ia.com/img/isaac-logo.svg">
+    <meta name="twitter:image" content="http://www.isaac-ia.com/img/isaac-logo.jpg">
         
         
         
