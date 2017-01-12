@@ -16,9 +16,19 @@ $couleur6ter: #eff6fb; // section 5
 $couleur7: #32425b; // section 6
 $couleur8: #32425b; // section footer
 
-//test
-h1{font-family: Arial;}
+html {
+	font-family: 'Roboto', sans-serif;
+}
 
+//test
+h1{font-size:2.34em;}
+p{font-size: 1.5em;}
+.slogan{font-size: 2em;}
+btn{font-size: 1.5em;}
+
+.shadow{
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+}
 
 #mention-header {
     overflow:auto;
@@ -34,26 +44,13 @@ h1{font-family: Arial;}
     }
     
     
-    #logo-isaac img{
-        display: block;
-        max-width: 200px;
-        margin: auto;
-        margin-top:40px;
 
-        @media (max-width: 1200px){
-            width: 40%;
-        }
-        @media (max-width: 768px){
-            width: 60%;
-        }
-    }
 }
 
 #logo-isaac img {
     display: block;
-    max-width: 446px;
+    max-width: 470px;
     margin: auto;
-    margin-top:40px;
                 
     @media (max-width: 1200px){
         width: 40%;
@@ -65,12 +62,38 @@ h1{font-family: Arial;}
 
 
 
+
+video{
+    position: absolute;
+    z-index: -100;
+
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    margin-top: -100px;
+    overflow: hidden;
+    object-fit: cover;
+        filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+        -moz-filter: brightness(50%);
+        -o-filter: brightness(50%);
+        -ms-filter: brightness(50%);
+}
+
+
+.slogan {
+    text-align: center;
+    font-size: 33px !important;
+}
+
+
+
 #intro{
-    overflow:auto;
+    overflow: hidden;
     overflow: -moz-scrollbars-none;
     padding: $grid-height*2 0;
-    background: url(../img/lp-header-bg.gif) no-repeat center top;
-    background-color: $couleur1;
+    color: #fff;
 
     
     @media (max-width: 1200px){
@@ -81,16 +104,12 @@ h1{font-family: Arial;}
     }
     
 
-    h1, p {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
-    }
-    
+
     p {
         font-size: 1.5em;
-        margin: 0px auto 80px auto;
+        margin: 30px auto;
         font-weight: 100;
+        text-align: center;
 
         @media (max-width: 1200px){
             font-size: 1.2em;
@@ -278,7 +297,6 @@ textarea#form-message {
 
 
 
-
 .button {
     float: left;
     width: 75px;
@@ -412,7 +430,7 @@ body {
 
 h1 {
     font-size: 2.7em;
-    margin: 43px auto 5px auto;
+    margin: 0px auto $grid-height auto;
     font-weight: normal;
     
     @media (max-width: 1200px){
@@ -493,10 +511,8 @@ h2 {
     img {
         float: right;
         width: auto;
-        max-width: 450px;
-        margin-right: -240px;
-        //color: #e5d0f4;
-        
+        max-width: 590px;
+        margin-right: -117px;        
         
         @media (max-width: 1200px){
             
@@ -539,7 +555,7 @@ h2 {
     img {
         float: left;
         width: 100% / 3 - 3 ; //30,33%
-        max-width: 386px;
+        max-width: 265px;
         
         @media (max-width: 1200px){
         }

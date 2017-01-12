@@ -1,5 +1,20 @@
+html {
+  font-family: 'Roboto', sans-serif; }
+
 h1 {
-  font-family: Arial; }
+  font-size: 2.34em; }
+
+p {
+  font-size: 1.5em; }
+
+.slogan {
+  font-size: 2em; }
+
+btn {
+  font-size: 1.5em; }
+
+.shadow {
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35); }
 
 #mention-header {
   overflow: auto;
@@ -7,23 +22,11 @@ h1 {
   padding: 0px;
   background: url(../img/lp-header-bg.gif) no-repeat center top;
   background-color: #202a36; }
-  #mention-header #logo-isaac img {
-    display: block;
-    max-width: 200px;
-    margin: auto;
-    margin-top: 40px; }
-    @media (max-width: 1200px) {
-      #mention-header #logo-isaac img {
-        width: 40%; } }
-    @media (max-width: 768px) {
-      #mention-header #logo-isaac img {
-        width: 60%; } }
 
 #logo-isaac img {
   display: block;
-  max-width: 446px;
-  margin: auto;
-  margin-top: 40px; }
+  max-width: 470px;
+  margin: auto; }
   @media (max-width: 1200px) {
     #logo-isaac img {
       width: 40%; } }
@@ -31,26 +34,42 @@ h1 {
     #logo-isaac img {
       width: 60%; } }
 
+video {
+  position: absolute;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  margin-top: -100px;
+  overflow: hidden;
+  object-fit: cover;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%); }
+
+.slogan {
+  text-align: center;
+  font-size: 33px !important; }
+
 #intro {
-  overflow: auto;
+  overflow: hidden;
   overflow: -moz-scrollbars-none;
   padding: 160px 0;
-  background: url(../img/lp-header-bg.gif) no-repeat center top;
-  background-color: #202a36; }
+  color: #fff; }
   @media (max-width: 1200px) {
     #intro {
       padding: 80px 0; } }
   @media (max-width: 768px) {
     #intro {
       padding: 80px 0; } }
-  #intro h1, #intro p {
-    color: #fff;
-    text-align: center;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35); }
   #intro p {
     font-size: 1.5em;
-    margin: 0px auto 80px auto;
-    font-weight: 100; }
+    margin: 30px auto;
+    font-weight: 100;
+    text-align: center; }
     @media (max-width: 1200px) {
       #intro p {
         font-size: 1.2em; } }
@@ -302,7 +321,7 @@ body {
 
 h1 {
   font-size: 2.7em;
-  margin: 43px auto 5px auto;
+  margin: 0px auto 80px auto;
   font-weight: normal; }
   @media (max-width: 1200px) {
     h1 {
@@ -362,8 +381,8 @@ h2 {
   #section1 img {
     float: right;
     width: auto;
-    max-width: 450px;
-    margin-right: -240px; }
+    max-width: 590px;
+    margin-right: -117px; }
     @media (max-width: 768px) {
       #section1 img {
         float: left;
@@ -393,7 +412,7 @@ h2 {
   #section2 img {
     float: left;
     width: 30.33333%;
-    max-width: 386px; }
+    max-width: 265px; }
     @media (max-width: 768px) {
       #section2 img {
         float: none;
