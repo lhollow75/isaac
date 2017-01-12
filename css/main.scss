@@ -571,10 +571,11 @@ h2 {
 
 #section1{
     clear: both;
-    padding: $grid-height*2 100% /9 - 3;
+    padding: $grid-height 100% /9 - 3;
     margin: 0;
     overflow:hidden;
     overflow: -moz-scrollbars-none;
+    margin-top: -80px;
 
 
     .description{
@@ -590,6 +591,8 @@ h2 {
         @media (max-width: 768px){
             width: 90%;
             float: none;
+            margin-top: 80px;
+
         }
         
         p {

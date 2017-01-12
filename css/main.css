@@ -416,10 +416,11 @@ h2 {
 
 #section1 {
   clear: both;
-  padding: 160px 8.11111%;
+  padding: 80px 8.11111%;
   margin: 0;
   overflow: hidden;
-  overflow: -moz-scrollbars-none; }
+  overflow: -moz-scrollbars-none;
+  margin-top: -80px; }
   #section1 .description {
     float: left;
     display: block;
@@ -430,7 +431,8 @@ h2 {
     @media (max-width: 768px) {
       #section1 .description {
         width: 90%;
-        float: none; } }
+        float: none;
+        margin-top: 80px; } }
     #section1 .description p {
       color: #3e3e3e; }
   #section1 img {

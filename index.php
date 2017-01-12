@@ -6,6 +6,24 @@
 		<link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
 
+        
+        
+<meta name="twitter:card" content="summary_large_image">
+
+        <meta property="og:image" content="http://www.isaac-ia.com/img/isaac-logo.svg" />
+    <meta property="og:title" content="ISAAC Intelligence artificielle" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://isaac-ia.com/" />
+    <meta property="og:description" content="Je suis ISAAC et je vous accompagne dans la création de votre boîte ! :)" />
+    <meta property="og:site_name" content="ISAAC" />
+    <meta name="twitter:title" content="ISAAC Intelligence artificielle">
+    <meta name="twitter:description" content="Je suis ISAAC et je vous accompagne dans la création de votre boîte ! :)">
+    <meta name="twitter:site" content="@isaac__ia">
+    <meta name="twitter:creator" content="@isaac__ia">
+    <meta name="twitter:image" content="http://www.isaac-ia.com/img/isaac-logo.svg">
+        
+        
+        
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
         
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.isaac-ia.com/img/favicon/apple-touch-icon-57x57.png" />
