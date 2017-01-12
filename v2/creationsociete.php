@@ -1,27 +1,19 @@
-<form action="registersociete.php" method="post" id="register-societe-form" class="row">
-	<div class="column col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		<input type="text" name="nom" value="" placeholder="Nom de la société" required><span class="">*</span>
-		<select name="formeJuridique" class="">
-			<option value="">Forme Juridique</option>
-			<?php		
-			foreach ($tab as $key => $value) {
-				?>
-				<option value="<?php echo $value[0]; ?>"><?php echo $value[1]; ?></option>
-				<?php
-			}
-			?>
-		</select>
-		<input type="email" name="email" value="" placeholder="Email de la societe"><span class=""></span>
-		<input type="number" name="siret" value="" placeholder="Siret"><span class=""></span>
-		<input type="tel" name="tel" value="" placeholder="Téléphone de contact"><span class=""></span>
-		<input type="text" name="adresse" value="" placeholder="Adresse de l'entreprise"><span class=""></span>
-		<input type="number" name="cp" value="" placeholder="Code Postal"><span class=""></span>
-		<input type="text" name="ville" value="" placeholder="Ville"><span class=""></span>
-		<input type="text" name="pays" value="" placeholder="Pays"><span class=""></span>
-		<input type="text" name="description_marque" value="" placeholder="Description de votre marque"><span class=""></span>
-		<input class="btn" type="submit" name="sumbit" value="Ajouter l'entreprise">
+<?php
+?>
+<form action="#" method="post" id="register-societe-form" class="row">
+		<input type="text" name="recherche_marque" value="" placeholder="Marque"><span class=""></span>
+		<input class="btn" type="submit" name="sumbit" value="Rechercher la disponibilité">
 	</div>
 </form>
 
+<?php
+if (isset($_POST['recherche_marque'])){
+	$source="https://euipo.europa.eu/eSearch/#basic/1+1+1+1/50+50+50+50/".$_POST['recherche_marque']
+?>
+	Résultats de la recherche pour la marque : <?php echo $_POST['recherche_marque']; ?>
+	<iframe height=60% width=100% src="<?php echo $source;?>"></iframe>
+	Si votre marque est disponible, continuons ensemble avec le <a href="depotinpi.php">dépot de votre marque à l'INPI</a>.
+	
+<?php
+}
 
-<a href="lien.html" target="_blank">https://euipo.europa.eu/eSearch/#basic/1+1+1+1/50+50+50+50/</a>
