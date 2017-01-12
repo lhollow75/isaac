@@ -37,7 +37,7 @@ video {
   height: 720px;
   margin-top: 0;
   overflow: hidden;
-  object-fit: cover; }
+  object-fit: fill; }
 
 #mention-header {
   overflow: auto;
