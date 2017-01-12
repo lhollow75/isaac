@@ -32,6 +32,7 @@
         </script>
 	
 	<?php 
+	header('Content-Type: text/html; charset=utf-8');
 	session_start();
 	if (isset($_SESSION['login']) and $_SESSION['login']==true){
 		// var_dump($_SESSION);
