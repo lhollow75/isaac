@@ -397,7 +397,8 @@ h1 {
       font-size: 2.2em; } }
   @media (max-width: 768px) {
     h1 {
-      font-size: 2em; } }
+      font-size: 2em;
+      margin: 0px auto; } }
 
 h2 {
   font-size: 2.5em;
@@ -433,14 +434,16 @@ h2 {
   padding: 60px 8.11111%;
   margin: 0;
   overflow: hidden;
-  overflow: -moz-scrollbars-none; }
+  overflow: -moz-scrollbars-none;
+  background-color: #fff; }
 
 #section1 {
   clear: both;
   padding: 80px 8.11111%;
   margin: 0;
   overflow: hidden;
-  overflow: -moz-scrollbars-none; }
+  overflow: -moz-scrollbars-none;
+  background-color: #fff; }
   #section1 .description {
     float: left;
     display: block;
@@ -450,7 +453,7 @@ h2 {
         width: 50%; } }
     @media (max-width: 768px) {
       #section1 .description {
-        width: 90%;
+        width: 100%;
         float: none; } }
     #section1 .description p {
       color: #3e3e3e; }
@@ -465,12 +468,11 @@ h2 {
     @media (max-width: 768px) {
       #section1 img {
         width: 100%;
-        margin-right: -60px;
-        float: right; } }
+        float: none; } }
 
 #section2 {
   border-top: 1px solid #5da0db;
-  padding: 160px 8.11111%;
+  padding: 80px 8.11111%;
   margin: 0;
   background-color: #eff6fb;
   overflow: hidden;
@@ -487,7 +489,8 @@ h2 {
         width: 100% / 2; } }
     @media (max-width: 768px) {
       #section2 .description {
-        width: 90%;
+        padding-top: 30px;
+        width: 100%;
         float: none; } }
   #section2 img {
     float: left;
@@ -496,13 +499,12 @@ h2 {
     @media (max-width: 768px) {
       #section2 img {
         float: none;
-        width: 100%;
-        margin: 0 auto 40px auto; } }
+        width: 50%; } }
 
 #section3 {
   clear: both;
   border-top: 1px solid #5da0db;
-  padding: 160px 8.11111%;
+  padding: 80px 8.11111%;
   padding-bottom: 0px;
   overflow: auto;
   overflow: -moz-scrollbars-none;
@@ -521,12 +523,6 @@ h2 {
   #section3 .description {
     display: block;
     margin: auto; }
-    #section3 .description h2 {
-      text-align: left;
-      width: 66.66667%; }
-      @media (max-width: 768px) {
-        #section3 .description h2 {
-          width: 90%; } }
     #section3 .description .article {
       float: left;
       width: 44%;
@@ -565,7 +561,7 @@ h2 {
   clear: both;
   background: url(../img/lp-section-bg.gif) no-repeat top center;
   background-color: #32425b;
-  padding: 320px 0;
+  padding: 320px 0 80px 0;
   padding-bottom: 225px;
   margin: auto;
   overflow: auto;
@@ -591,53 +587,9 @@ h2 {
   overflow: auto;
   overflow: -moz-scrollbars-none; }
 
-#section5 {
-  clear: both;
-  padding: 160px 8.11111%;
-  margin: 0;
-  overflow: auto;
-  overflow: -moz-scrollbars-none;
-  /* IE10+ */
-  background-image: -ms-linear-gradient(bottom, #32425B 40%, #3D89AD 70%, #eff6fb 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(bottom, #32425B 40%, #3D89AD 70%, #eff6fb 100%);
-  /* Opera */
-  background-image: -o-linear-gradient(bottom, #32425B 40%, #3D89AD 70%, #eff6fb 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(40, #32425B), color-stop(70, #3D89AD), color-stop(100, #eff6fb));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(bottom, #32425B 40%, #3D89AD 70%, #eff6fb 100%);
-  /* W3C Markup */
-  background-image: linear-gradient(to top, #32425B 40%, #3D89AD 70%, #eff6fb 100%); }
-  #section5 .description h2 {
-    color: #fff;
-    margin: 30px 0 130px 0;
-    text-align: center;
-    width: 100%; }
-  #section5 .description .platform {
-    width: 33.33333%;
-    text-align: center;
-    float: left; }
-    @media (max-width: 768px) {
-      #section5 .description .platform {
-        width: 100%;
-        margin-top: 50px; } }
-    #section5 .description .platform .cp-small {
-      max-width: 100px; }
-    #section5 .description .platform .cp-big {
-      max-width: 200px; }
-    #section5 .description .platform h3 {
-      text-align: center;
-      color: #fff;
-      font-weight: bold;
-      font-size: 1.5em; }
-    #section5 .description .platform p {
-      color: #fff;
-      text-align: center; }
-
 #section6 {
   background-color: #32425b;
-  padding: 160px 8.11111%;
+  padding: 80px 8.11111%;
   color: #fff;
   overflow: auto; }
   #section6 .bg {
@@ -651,6 +603,9 @@ h2 {
       float: left;
       padding-bottom: 50px; }
       @media (max-width: 1200px) {
+        #section6 .bg .description {
+          width: 100%; } }
+      @media (max-width: 768px) {
         #section6 .bg .description {
           width: 100%; } }
 
