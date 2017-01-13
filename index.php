@@ -79,7 +79,7 @@
                </div>
                <img class="intro-line wow fadeIn" data-wow-duration="1s" data-wow-delay="0s" src="img/intro-hr.png">
                <p class="slogan shadow">Vous souhaitez cr&eacute;er votre entreprise<br>et la p&eacute;renniser&nbsp;?</p>
-               <p class="shadow">32% du temps de création d’une entreprise est consacré aux tâches administratives. </p>
+               <p class="shadow">32% du temps de création d’une entreprise<br>est consacré aux tâches administratives. </p>
                <p>
                    <a class="js-scrollTo" href="#section1"><button id="plus" class="wow fadeInUp">Découvrez ISAAC</button></a>
                </p>
