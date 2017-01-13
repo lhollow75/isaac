@@ -5,6 +5,9 @@
 		<title>ISAAC - Optimisez la création de votre entreprise</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
 
         <meta name="viewport" content="initial-scale=1">
         
@@ -91,7 +94,7 @@
 		<p class="shadow wow fadeInLeft">ISAAC vous libère du temps et de l'&eacute;nergie pour que<br> vous exerciez votre c&oelig;ur de m&eacute;tier.</p>
         
         
-        <p><button id="plus" class="wow fadeInUp"><a href="http://isaac-ia.com#section3">En savoir plus</a></button></p>
+        <p><button id="plus" class="wow fadeInUp"><a class="js-scrollTo" href="#section3">En savoir plus</a></button></p>
         
         
         
@@ -145,6 +148,7 @@
     
     
  	<section id="section3">
+        
         <div class="description">
             <h1>L’ensemble de ses fonctionnalités,<br>
                 pour vous aider dans votre projet</h2>
@@ -225,7 +229,7 @@
             <div class="description">
                 <h2>Contactez-nous pour plus d’informations</h2>
                 
-                <p>Vous souhaitez plus d’informations concernant le projet ISAAC&nbsp;? <br>N’hésitez pas à nous contacter dès maintenant.</p>
+                <p>Vous souhaitez plus d’informations<br>concernant le projet ISAAC&nbsp;? <br>N’hésitez pas à nous contacter dès maintenant.</p>
             </div>
             
             <div class="description">
@@ -272,6 +276,18 @@
         
     </footer>
     </div>
+    
+    
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
     
 <!--Analytics Google-->
 <script>
