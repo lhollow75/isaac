@@ -398,7 +398,7 @@ textarea#form-message {
     padding: 10px 10px;
     //border: 1px solid #c4c4c4;
     border-left: none;
-    max-width: 830px;
+    max-width: 930px;
 
     border-radius: 0 10px 10px 0;
     //background-color: #fff;
@@ -583,7 +583,11 @@ h2 {
 }
 
 
-
+.content{
+    max-width: 1280px;
+    margin : 0 auto;
+    padding: 0;
+}
 
 #section7{
     clear: both;
@@ -819,8 +823,6 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
             margin: 50px auto;
             font-weight: 100;
         }
-
-        
     }
 }
 
@@ -842,11 +844,8 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
 #section6{
     background-color: #32425b;
     padding: $grid-height 100% /9 - 3;
-
     color: #fff;
     overflow: auto;
-    //overflow:hidden;
-    //overflow: -moz-scrollbars-none;
     
     .bg{
         background: url(../img/s6-bg.png) no-repeat top;
