@@ -239,7 +239,11 @@
 
         </script>
     </body>
-
+    
+    <script>
+        var vid = document.getElementById("vid");
+        vid.playbackRate = 0.5;
+    </script>
     <!-- Wow -->
     <script src="dist/wow.min.js"></script>
     <script>new WOW().init();</script>
