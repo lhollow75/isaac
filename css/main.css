@@ -37,7 +37,7 @@ video {
   height: 720px;
   margin-top: 0;
   overflow: hidden;
-  object-fit: fill; }
+  object-fit: cover; }
 
 #mention-header {
   overflow: -moz-scrollbars-none;
@@ -100,15 +100,14 @@ video {
 #intro {
   overflow: hidden;
   overflow: -moz-scrollbars-none;
-  padding: 160px 0 0 0;
-  color: #fff;
-  height: 640px; }
+  padding: 80px 0;
+  color: #fff; }
   @media (max-width: 1200px) {
     #intro {
-      padding: 160px 0 0 0; } }
+      padding: 80px 0; } }
   @media (max-width: 768px) {
     #intro {
-      padding: 80px 0 0 0; } }
+      padding: 80px 0; } }
   #intro p {
     font-size: 1.5em;
     margin: 30px auto;
@@ -460,14 +459,17 @@ h2 {
   #section1 img {
     float: right;
     width: auto;
-    max-width: 510px;
+    max-width: 520px;
     margin-right: -117px; }
     @media (max-width: 1200px) {
       #section1 img {
-        margin-right: -200px; } }
+        margin-right: -200px;
+        max-width: 520px; } }
     @media (max-width: 768px) {
       #section1 img {
         width: 100%;
+        max-width: 100%;
+        margin-top: 30px;
         float: none; } }
 
 #section2 {
