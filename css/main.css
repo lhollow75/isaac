@@ -117,10 +117,6 @@ video {
     @media (max-width: 1200px) {
       #intro p {
         font-size: 1.2em; } }
-    @media (max-width: 768px) {
-      #intro p {
-        font-size: 1.2em;
-        width: 70%; } }
 
 .intro-line {
   display: block;

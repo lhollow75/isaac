@@ -94,7 +94,7 @@
 		<p class="shadow wow fadeInLeft">ISAAC vous libère du temps et de l'&eacute;nergie pour que<br> vous exerciez votre c&oelig;ur de m&eacute;tier.</p>
         
         
-        <p><a class="js-scrollTo" href="#section2"><button id="plus" class="wow fadeInUp">En savoir plus</button></a></p>
+        <p><a class="js-scrollTo" href="#section1"><button id="plus" class="wow fadeInUp">En savoir plus</button></a></p>
         
         
         
