@@ -116,7 +116,7 @@
         <div class="description">
             <h1>Grâce à ISAAC, gagnez du temps pour faire ce qui vous passionne.</h1>
     
-            <p>Vous envisagez de créer votre entreprise ? Vous venez de concrétiser ce projet ? <strong>Donnez-vous les moyens de réussir&nbsp;!</strong></p>
+            <p>Vous envisagez de créer votre entreprise&nbsp;? Vous venez de concrétiser ce projet&nbsp;? <strong>Donnez-vous les moyens de réussir&nbsp;!</strong></p>
             
             <p><strong>Il vous accompagne</strong> pour simplifier vos démarches administratives mais aussi pour vous conseiller tout au long de votre projet.</p>
             
@@ -130,11 +130,11 @@
         <img src="img/mobile-focus.png" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
         
         <div class="description">
-            <h1>Experts, conseillers, outils indispensables : ISAAC vous propose des solutions sur-mesure.</h1>
+            <h1>Experts, conseillers, outils indispensables&nbsp;: ISAAC vous propose des solutions sur-mesure.</h1>
             
             <p>Plus qu’un simple conseiller, il vous accompagne 24h/24 et 7j/7. ISAAC répond à toutes vos questions <strong>en temps réel</strong> mais est également force de propositions et vous soumet, <strong>selon vos besoins,</strong> des solutions innovantes et différenciantes.</p>
             
-            <p>Automatisation des tâches, gestion des documents administratifs, mise à disposition d’outils et de solutions stratégiques, suivi <strong>tout au long de votre projet :</strong> présent sur desktop, mobile et sous la forme d’un objet connecté, il est <strong>disponible à tout moment</strong> et partout avec vous.<br>
+            <p>Automatisation des tâches, gestion des documents administratifs, mise à disposition d’outils et de solutions stratégiques, suivi <strong>tout au long de votre projet&nbsp;:</strong> présent sur desktop, mobile et sous la forme d’un objet connecté, il est <strong>disponible à tout moment</strong> et partout avec vous.<br>
             ISAAC met ses capacités d’analyse à votre service. </p>
         </div>
     </section>
@@ -196,7 +196,7 @@
                 <div id="mc_embed_signup_scroll">
 
                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Entrez votre email pour recevoir la newsletter..." required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    
                         <div style="position: absolute; left: -5000px;" aria-hidden="true">
                             <input type="text" name="b_874c9216b0a378dab24810988_393f902eff" tabindex="-1" value="">
                     </div>
@@ -225,7 +225,7 @@
             <div class="description">
                 <h2>Contactez-nous pour plus d’informations</h2>
                 
-                <p>Vous souhaitez plus d’informations concernant le projet ISAAC ? <br>N’hésitez pas à nous contacter dès maintenant.</p>
+                <p>Vous souhaitez plus d’informations concernant le projet ISAAC&nbsp;? <br>N’hésitez pas à nous contacter dès maintenant.</p>
             </div>
             
             <div class="description">
