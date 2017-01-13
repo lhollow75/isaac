@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>ISAAC - Intelligence artificielle</title>
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/animate.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
         
         <!--Meta -->
         <meta name="viewport" content="initial-scale=1">
