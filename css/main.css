@@ -77,8 +77,8 @@ video {
   margin: auto;
   height: 75px;
   border-radius: 7px;
-  border: none;
-  background-color: #4baddc;
+  border: 2px solid #4baddc;
+  background: none;
   max-width: 300px;
   min-width: 300px;
   transition: all 300ms ease;
@@ -95,7 +95,7 @@ video {
       font-size: 1em; } }
 
 #plus:hover {
-  background-color: #b364d7;
+  background-color: #4baddc;
   transition: all 300ms ease; }
 
 #intro {
