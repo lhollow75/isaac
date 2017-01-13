@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>ISAAC - Optimisez la création de votre entreprise</title>
+		<title>ISAAC - Intelligence artificielle</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -13,17 +13,24 @@
         
         <meta name="twitter:card" content="summary_large_image">
 
+
+        
+        <meta property="og:title" content="ISAAC Intelligence artificielle" />
+        <meta property="og:type" content="website" />
+        
+        <meta property="og:url" content="http://isaac-ia.com/" />
         <meta property="og:image" content="http://www.isaac-ia.com/img/isaac-logo.jpg" />
-    <meta property="og:title" content="ISAAC Intelligence artificielle" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://isaac-ia.com/" />
-    <meta property="og:description" content="Je suis ISAAC et je vous accompagne dans la création de votre boîte ! :)" />
-    <meta property="og:site_name" content="ISAAC" />
-    <meta name="twitter:title" content="ISAAC Intelligence artificielle">
-    <meta name="twitter:description" content="Je suis ISAAC et je vous accompagne dans la création de votre boîte ! :)">
-    <meta name="twitter:site" content="@isaac__ia">
-    <meta name="twitter:creator" content="@isaac__ia">
-    <meta name="twitter:image" content="http://www.isaac-ia.com/img/isaac-logo.jpg">
+
+        <meta property="og:description" content="Je suis ISAAC et je vous accompagne dans la création de votre boîte ! :)" />
+        <meta property="og:site_name" content="ISAAC" />
+        
+        
+        
+        <meta name="twitter:title" content="ISAAC Intelligence artificielle">
+        <meta name="twitter:description" content="Je suis ISAAC et je vous accompagne dans la création de votre boîte ! :)">
+        <meta name="twitter:site" content="@isaac__ia">
+        <meta name="twitter:creator" content="@isaac__ia">
+        <meta name="twitter:image" content="http://www.isaac-ia.com/img/isaac-logo.jpg">
         
         
         
