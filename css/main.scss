@@ -127,28 +127,24 @@ video{
     border: none;
     background-color: #4baddc;
     max-width: 300px;
-    min-width: 200px;
-    transition: all 300ms ease;    
-}
-
-
-
-
-#plus a{
+    min-width: 300px;
+    transition: all 300ms ease; 
     color: #fff;
-    font-size: 1.5em;
+    font-size: 0.7em;
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    
+
     @media (max-width: 1200px){
-        
+        font-size: 1em;
     }
     @media (max-width: 768px){
-        font-size: 1.7em;
+        font-size: 1em;
     }
-    
 }
+
+
+
 
 #plus:hover{
     background-color: #b364d7;
@@ -276,6 +272,7 @@ input#form-mail {
     padding: 10px;
     text-align: left;
     color: #7b7b7b;
+	font-family: 'Roboto', sans-serif;
 
     
     @media (max-width: 1200px){
