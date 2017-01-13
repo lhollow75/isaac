@@ -78,10 +78,10 @@
                    </a>
                </div>
                <img class="intro-line wow fadeIn" data-wow-duration="1s" data-wow-delay="0s" src="img/intro-hr.png">
-               <p class="slogan shadow wow fadeInRight">Vous souhaitez cr&eacute;er votre entreprise<br>et la p&eacute;renniser&nbsp;?</p>
-               <p class="shadow wow fadeInLeft">ISAAC vous libère du temps et de l'&eacute;nergie pour que<br> vous exerciez votre c&oelig;ur de m&eacute;tier.</p>
+               <p class="slogan shadow">Vous souhaitez cr&eacute;er votre entreprise<br>et la p&eacute;renniser&nbsp;?</p>
+               <p class="shadow">32% du temps de création d’une entreprise est consacré aux tâches administratives. </p>
                <p>
-                   <a class="js-scrollTo" href="#section1"><button id="plus" class="wow fadeInUp">En savoir plus</button></a>
+                   <a class="js-scrollTo" href="#section1"><button id="plus" class="wow fadeInUp">Découvrez ISAAC</button></a>
                </p>
         
                <figure id="fashion">
@@ -145,7 +145,7 @@
 
             <section id="section7">
                 <div class="content">
-                    <p class="slogan wow fadeInUp"><strong>90%</strong> des startups échouent lors de la première année.<br><strong>Ensemble, inversons la tendance.</strong></p>
+                    <p class="slogan wow fadeInUp">Libérez-vous des contraintes pour vous consacrer à votre projet.</p>
                 </div>
             </section>
 
