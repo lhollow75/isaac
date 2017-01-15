@@ -77,7 +77,7 @@
                     
                     
 
-	            <div class="slider-logo-isaac"><img src="./img/isaac-logo.svg"></div>
+	            <div class="slider-logo-isaac"><img src="http://www.isaac-ia.com/img/isaac-logo.svg"></div>
 
 	<!-- ==================================== 
 	Contenedor Slider 
@@ -85,7 +85,7 @@
 	<section id="slider" class="container">
 		<ul class="slider-wrapper">
 		<li class="current-slide">
-			<img src="../img/connexion/slide1.jpg" title="" alt="">
+			<img src="http://www.isaac-ia.com/img/connexion/slide1.jpg" title="" alt="">
 
 			<div class="caption">
 				<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, placeat est. Alias illo hic quo nobis, aspernatur iste ut voluptate.&rdquo;</p>
@@ -95,7 +95,7 @@
 		</li>
 
 		<li>
-			<img src="../img/connexion/slide2.jpg" title="" alt="">
+			<img src="http://www.isaac-ia.com/img/connexion/slide2.jpg" title="" alt="">
 
 			<div class="caption">
 				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iusto placeat aliquid tempore harum, similique !"</p>
