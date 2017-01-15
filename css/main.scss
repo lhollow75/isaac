@@ -32,8 +32,9 @@ body {
 	background: #242c38;
 	font-family: 'Roboto';
 	font-size: 62.5%;
+    margin: 0;
+    padding: 0;
 }
-
 .clearfix:after {
 	content: '';
 	clear: both;
@@ -67,11 +68,6 @@ h1 {
 	box-sizing: border-box;
 }
 
-body {
-	background: #242c38;
-	font-family: 'Roboto';
-	font-size: 62.5%;
-}
 
 .clearfix:after {
 	content: '';
@@ -655,17 +651,11 @@ video{
     min-width: 300px;
     transition: all 300ms ease; 
     color: #fff;
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-
-    @media (max-width: 1200px){
-        font-size: 1em;
-    }
-    @media (max-width: 768px){
-        font-size: 1em;
-    }
+    font-weight: 700;
 }
 
 
@@ -682,8 +672,6 @@ video{
     overflow: -moz-scrollbars-none;
     padding: $grid-height 0;
     color: #fff;
-    //height: 640px;
-
     
     @media (max-width: 1200px){
         padding: $grid-height 0;
@@ -692,20 +680,11 @@ video{
         padding: $grid-height 0;
     }
     
-
-
     p {
-        font-size: 1.5em;
+        font-size: 2em;
         margin: 30px auto;
-        font-weight: 100;
+        font-weight: 400;
         text-align: center;
-
-        @media (max-width: 1200px){
-            font-size: 1.2em;
-        }
-        @media (max-width: 768px){
-            
-        }
     }
 }
 
@@ -951,21 +930,19 @@ button#getform {
 }
 
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 h1 {
-    font-size: 2.7em;
+    font-size: 40px;
     margin: 0px auto $grid-height auto;
-    font-weight: normal;
+    font-weight: 400;
+    text-align: left;
+    color: #3e3e3e;
     
     @media (max-width: 1200px){
-        font-size: 2.2em;
+        font-size: 35px;
     }
     @media (max-width: 768px){
-        font-size: 2em;
         margin: 0px auto;
     }
 }
@@ -987,17 +964,39 @@ h2 {
 .description p {
     font-size: 1.5em;
     line-height: 1.3em;
-    font-weight: 300;
+    font-weight: 400;
+    margin-bottom: 15px;
     
     @media (max-width: 1200px){
-        font-size: 1.3em;
-        line-height: 1.3em;
+        font-size: 1.5em;
+        line-height: 1.5em;
     }
     @media (max-width: 768px){
-        font-size: 1.1em;
-        line-height: 1.3em;
+        font-size: 1.5em;
+        line-height: 1.5em;
     }
 }
+
+.description h1 {
+    font-size: 40px;
+    margin: 0px auto $grid-height auto;
+    font-weight: 400;
+    text-align: left;
+    color: #3e3e3e;
+    
+    @media (max-width: 1200px){
+        font-size: 35px;
+    margin: 0px auto $grid-height/2+0 auto;
+    }
+    @media (max-width: 768px){
+    margin: 0px auto $grid-height/4+0 auto;
+    }
+}
+
+#section6 .content .bg .description h1{
+    color: #fff;
+}
+
 
 
 .lp {

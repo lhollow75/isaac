@@ -9,7 +9,9 @@
 body {
   background: #242c38;
   font-family: 'Roboto';
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0; }
 
 .clearfix:after {
   content: '';
@@ -38,11 +40,6 @@ h1 {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-
-body {
-  background: #242c38;
-  font-family: 'Roboto';
-  font-size: 62.5%; }
 
 .clearfix:after {
   content: '';
@@ -508,16 +505,11 @@ video {
   min-width: 300px;
   transition: all 300ms ease;
   color: #fff;
-  font-size: 0.7em;
+  font-size: 1em;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif; }
-  @media (max-width: 1200px) {
-    #plus {
-      font-size: 1em; } }
-  @media (max-width: 768px) {
-    #plus {
-      font-size: 1em; } }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
 
 #plus:hover {
   background-color: #4baddc;
@@ -535,13 +527,10 @@ video {
     #intro {
       padding: 80px 0; } }
   #intro p {
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 30px auto;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center; }
-    @media (max-width: 1200px) {
-      #intro p {
-        font-size: 1.2em; } }
 
 .intro-line {
   display: block;
@@ -717,20 +706,17 @@ button#getform {
     .sendmail {
       background: none; } }
 
-body {
-  margin: 0;
-  padding: 0; }
-
 h1 {
-  font-size: 2.7em;
+  font-size: 40px;
   margin: 0px auto 80px auto;
-  font-weight: normal; }
+  font-weight: 400;
+  text-align: left;
+  color: #3e3e3e; }
   @media (max-width: 1200px) {
     h1 {
-      font-size: 2.2em; } }
+      font-size: 35px; } }
   @media (max-width: 768px) {
     h1 {
-      font-size: 2em;
       margin: 0px auto; } }
 
 h2 {
@@ -747,15 +733,33 @@ h2 {
 .description p {
   font-size: 1.5em;
   line-height: 1.3em;
-  font-weight: 300; }
+  font-weight: 400;
+  margin-bottom: 15px; }
   @media (max-width: 1200px) {
     .description p {
-      font-size: 1.3em;
-      line-height: 1.3em; } }
+      font-size: 1.5em;
+      line-height: 1.5em; } }
   @media (max-width: 768px) {
     .description p {
-      font-size: 1.1em;
-      line-height: 1.3em; } }
+      font-size: 1.5em;
+      line-height: 1.5em; } }
+
+.description h1 {
+  font-size: 40px;
+  margin: 0px auto 80px auto;
+  font-weight: 400;
+  text-align: left;
+  color: #3e3e3e; }
+  @media (max-width: 1200px) {
+    .description h1 {
+      font-size: 35px;
+      margin: 0px auto 40px auto; } }
+  @media (max-width: 768px) {
+    .description h1 {
+      margin: 0px auto 20px auto; } }
+
+#section6 .content .bg .description h1 {
+  color: #fff; }
 
 .lp {
   margin: auto;
