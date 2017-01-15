@@ -27,7 +27,7 @@
         <meta property="og:site_name" content="ISAAC" />
         
         <!--Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
         
         <!--Favicon-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.isaac-ia.com/img/favicon/apple-touch-icon-57x57.png" />
@@ -74,9 +74,49 @@
             
             <!--Section gauche-->
             <section class="connexion sectionLeft">
-                <div class="slider">
-                    sdfsdfsd
-                </div>
+                <!--<div class="slider"></div>-->
+                    
+                    
+
+	
+	<!-- ==================================== 
+	Contenedor Slider 
+	=======================================-->
+	<section id="slider" class="container">
+		<ul class="slider-wrapper">
+		<li class="current-slide">
+			<img src="../img/connexion/slide1.jpg" title="" alt="">
+
+			<div class="caption">
+				<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, placeat est. Alias illo hic quo nobis, aspernatur iste ut voluptate.&rdquo;</p>
+				<h2 class="slider-title">Grégory N. - Le poing levé</h2>
+
+			</div>
+		</li>
+
+		<li>
+			<img src="../img/connexion/slide2.jpg" title="" alt="">
+
+			<div class="caption">
+				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iusto placeat aliquid tempore harum, similique !"</p>
+				<h2 class="slider-title">John Edwin Graf - The Wild Mix</h2>
+
+			</div>
+		</li>
+
+		</ul>
+		<!-- Sombras -->
+		<div class="slider-shadow"></div>
+		
+		<!-- Controles de Navegacion -->
+		<ul id="control-buttons" class="control-buttons"></ul>
+	</section>
+	
+
+	</p>
+                    
+                    
+            
                 
                 
             </section>
@@ -84,46 +124,49 @@
             <!--Section droite-->
             <section class="connexion sectionRight">
                 <ul class="menu">
-                    <li><a href="#" class="selected">Connexion</a></li>
                     <li><a href="#">Inscription</a></li>
+                    <li class="selected"><a href="#">Connexion</a></li>
                     <li><a href="#">Quitter</a></li>
                 </ul>
                 
+                
+                
                 <div class="formConnexion">
-                    <form action="envoimail.php" id="connexion-form" method="post">
+                    <form action="../formConnexion.php" id="connect-form" method="post">
                         <h2>Connexion</h2>
-                        <ul>
-                            <li class="picto-mail"><input type="email" name="form-mail" id="form-mail-connexion" placeholder="Adresse e-mail" required/></li>
+                        <ul class=forms>
+                            <li>
+                                <div class="picto-mail"></div>
+                                <input type="email" name="identifiant" id="form-mail-connexion" placeholder="Adresse e-mail" required/>
+                            </li>
                         
-                            <li class="picto-password"><input type="text" name="form-mail" id="form-password" placeholder="Mot de passe" required/>
+                            <li>
+                                <div class="picto-password"></div>
+                                <input type="password" name="password" id="form-password" placeholder="Mot de passe" required/>
+                            </li>
+                            
+                            <li>
+                                <p class="mdp">
+                                    <span><em>
+                                        <a href="#">Mot de passe oublié ?</a>
+                                        </em></span>
+                                </p>
                             </li>
                         </ul>
+                    
                     </form>
-                    <p class="mdp"><span><em>Mot de passe oublié ?</em></span></p>
-                    <button class="connexionButton">Connexion <span class="picto-mail"></span></button>
+
+                    <button class="connexionButton" type="submit" name="sumbit">
+                        <p>Connexion</p>
+                        <div class="picto-arrow"></div>
+                    </button>
                 </div>
                 
             </section>
-            
-            
-        <!--</div>-->
-            
-            
-            
-            
-            
         
-        <!--ScrollTo-->
-        <script>
-            $(document).ready(function() {
-                $('.js-scrollTo').on('click', function() { // Au clic sur un élément
-                    var page = $(this).attr('href'); // Page cible
-                    var speed = 750; // Durée de l'animation (en ms)
-                    $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-                    return false;
-                });
-            });
-        </script>
+        
+
+    <script src="dist/slider.js"></script>
 
         <!--Analytics Google-->
         <script>
@@ -135,6 +178,11 @@
           ga('create', 'UA-89779336-1', 'auto');
           ga('send', 'pageview');
 
+        </script>
+        
+        
+
+        
         </script>
     </body>
 
