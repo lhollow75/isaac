@@ -108,7 +108,7 @@
             <div class="formConnexion">
                 <form action="../formConnexion.php" id="connect-form" method="post">
                     <h2>Connexion</h2>
-                    <ul class=forms>
+                    <ul id=forms>
                         <li>
                             <label class="picto-mail" for="identifiant"></label>
                             <input type="email" name="identifiant" id="form-mail-connexion" placeholder="Adresse e-mail" autofocus required/>
