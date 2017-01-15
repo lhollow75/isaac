@@ -711,7 +711,7 @@ video{
 .search_section {
     display: block;
     width: 710px;
-    margin: 0 auto;
+    margin: -30px auto 0 auto;
     text-align: center;
     
     @media (max-width: 1200px){
@@ -726,6 +726,95 @@ input:focus, textarea:focus, button {
     outline: none;
 }
 
+input[type=email] {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    float: left;
+    border: none;
+    color: #7b7b7b;
+    margin: auto;
+    width: 90%;
+    height: 50px;
+    display: block;
+    margin: 0;
+    max-width: 590px;
+
+    padding: 10px 10px;
+    border: 1px solid #c4c4c4;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+    
+    @media (max-width: 1200px){
+        width: 90%;
+    }
+    @media (max-width: 768px){
+        width: 100%;
+        padding: 0px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+}
+
+/* Champs de recherche */
+input#form-mail {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: left;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    color: #7b7b7b;
+
+    
+    @media (max-width: 1200px){
+        width: 100%;
+        border: 1px solid #c4c4c4;
+        border-radius: 7px;
+    }
+    @media (max-width: 768px){
+        width: 100%;
+        height: 50px;
+        font-size: 0.75em;
+        padding: 0px;
+        border-radius: 5px;
+    }
+}
+
+/* Champs de recherche */
+textarea#form-message {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: left;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0px;
+    color: #7b7b7b;
+
+    resize:none;
+    margin-top: 24px;
+    height: 217px;
+    
+    @media (max-width: 1200px){
+        width: 100%;
+        border: 1px solid #c4c4c4;
+        border-radius: 7px;
+    }
+    @media (max-width: 768px){
+        width: 100%;
+        height: 220px;
+        padding: 10px 0px;
+        border-radius: 5px;
+        border: 1px solid #c4c4c4;
+
+    }
+    
+}
 
 
 
@@ -766,9 +855,9 @@ input:focus, textarea:focus, button {
 
 .button {
     float: left;
-    width: 75px;
-    height: 75px;
-    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
     border: 1px solid #c4c4c4;
     border-left: none;
     max-width: 590px;
@@ -778,10 +867,7 @@ input:focus, textarea:focus, button {
     
     
     @media (max-width: 1200px){
-        width: 100%;
-        background-color: #5da0db;
-        border: 1px solid #5da0db;
-        border-radius: 0 0 7px 7px;
+
     }
     @media (max-width: 768px){
         width: 100%;
@@ -796,8 +882,8 @@ input:focus, textarea:focus, button {
 
 .button2 {
     float: right;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     padding: 10px 10px;
     //border: 1px solid #c4c4c4;
     border-left: none;
@@ -863,14 +949,14 @@ button#getform {
 
 .button button {
     display: block;
-    width: 75px;
-    height: 75px;
+    width: 44px;
+    height: 44px;
     border: none;
     border-radius: 10px;
     background-color: #5da0db;
     text-align: center;
     vertical-align: middle;
-    margin: auto;
+    margin: 2px auto;
 
     
     @media (max-width: 1200px){
@@ -887,7 +973,7 @@ button#getform {
     display: none;
     content: "Envoyer";
     vertical-align: middle;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #fff;
     border: none;
 
@@ -901,8 +987,6 @@ button#getform {
         display: block;
         margin-top: 8px;
         margin-left: -12px;
-        font-size: 1.7em;
-
     }
     
 }
@@ -913,7 +997,7 @@ button#getform {
 
 .sendmail {
     border: none;
-    width: 46px;
+    width: 30px;
     height: 43px;
     display: block;
     background: url(../img/sent-mail.svg) no-repeat center;
@@ -1289,8 +1373,6 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
             @media (max-width: 768px){
                 width: 100%;
             }
-            
-            
         }
     }
 }
@@ -1303,7 +1385,6 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
 footer {
     clear: both;
     background-color: #32425b;
-    //padding: 60px 10px;
     padding: 0 100% /9 - 3;
     padding-bottom: 60px;
     overflow:auto;
@@ -1314,7 +1395,6 @@ footer {
         border-top: 1px solid #617086;
     }
 
-    
     .signature {
         font-size: 0.5em;
         font-weight: 100;
@@ -1323,8 +1403,6 @@ footer {
         color: #d4d8de;
         display: inline-block;
         text-align: center;
-
-        
         @media (max-width: 1200px){
             width: 50%;
             text-align: center;
@@ -1332,26 +1410,18 @@ footer {
         @media (max-width: 768px){
             width: 100%;
             text-align: center;
-        }
-        
-        
-        
+        }        
         p {
             margin-top: 1px;
             text-align: left;
             font-size: 9px;
             a{text-decoration: none;color:#d4d8de;}
             a:hover{text-decoration: underline;}
-            
-            
             @media (max-width: 1200px){
-                
             }
             @media (max-width: 768px){
                text-align: center;
-            }
-            
-            
+            }            
         }
         
         img {
