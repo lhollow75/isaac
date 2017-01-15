@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div id="meschk">
+  <input type="checkbox" ... />
+  <input type="checkbox" ... />
+  <input type="checkbox" ... />
+  <input type="checkbox" ... />
+  <input type="checkbox" ... />
+</div>
+ 
+
+<script> 
+if ($("#meschk").find("input:checked").size()) {
+ // des checkbox sont cochées
+ console.log("OK tous est coché")
+} else {
+ // pas de checkbox cochées
+ console.log("Erreur")
+}
+</script>
+
+</body>
+</html>

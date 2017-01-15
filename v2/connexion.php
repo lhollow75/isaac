@@ -70,99 +70,69 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
     <body>
-        <!--<div class="lp-connexion">-->
             
-            <!--Section gauche-->
-            <section class="connexion sectionLeft">
-                <!--<div class="slider"></div>-->
-                    
-                    
-
-	
-	<!-- ==================================== 
-	Contenedor Slider 
-	=======================================-->
-	<section id="slider" class="container">
-		<ul class="slider-wrapper">
-		<li class="current-slide">
-			<img src="../img/connexion/slide1.jpg" title="" alt="">
-
-			<div class="caption">
-				<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, placeat est. Alias illo hic quo nobis, aspernatur iste ut voluptate.&rdquo;</p>
-				<h2 class="slider-title">Grégory N. - Le poing levé</h2>
-
-			</div>
-		</li>
-
-		<li>
-			<img src="../img/connexion/slide2.jpg" title="" alt="">
-
-			<div class="caption">
-				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iusto placeat aliquid tempore harum, similique !"</p>
-				<h2 class="slider-title">John Edwin Graf - The Wild Mix</h2>
-
-			</div>
-		</li>
-
-		</ul>
-		<!-- Sombras -->
-		<div class="slider-shadow"></div>
-		
-		<!-- Controles de Navegacion -->
-		<ul id="control-buttons" class="control-buttons"></ul>
-	</section>
-	
-
-	</p>
-                    
-                    
-            
-                
-                
-            </section>
-            
-            <!--Section droite-->
-            <section class="connexion sectionRight">
-                <ul class="menu">
-                    <li><a href="#">Inscription</a></li>
-                    <li class="selected"><a href="#">Connexion</a></li>
-                    <li><a href="#">Quitter</a></li>
+        <!--Section gauche-->
+        <section class="connexion sectionLeft">
+            <!--Slider-->
+            <section id="slider" class="container">
+                <ul class="slider-wrapper">
+                    <li class="current-slide">
+                        <img src="../img/connexion/slide1.jpg" title="" alt="">
+                        <div class="caption">
+                            <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, placeat est. Alias illo hic quo nobis, aspernatur iste ut voluptate.&rdquo;</p>
+                            <h2 class="slider-title">Grégory N. - Le poing levé</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/connexion/slide2.jpg" title="" alt="">
+                        <div class="caption">
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iusto placeat aliquid tempore harum, similique !"</p>
+                            <h2 class="slider-title">John Edwin Graf - The Wild Mix</h2>
+                        </div>
+                    </li>
                 </ul>
-                
-                
-                
-                <div class="formConnexion">
-                    <form action="../formConnexion.php" id="connect-form" method="post">
-                        <h2>Connexion</h2>
-                        <ul class=forms>
-                            <li>
-                                <div class="picto-mail"></div>
-                                <input type="email" name="identifiant" id="form-mail-connexion" placeholder="Adresse e-mail" required/>
-                            </li>
-                        
-                            <li>
-                                <div class="picto-password"></div>
-                                <input type="password" name="password" id="form-password" placeholder="Mot de passe" required/>
-                            </li>
-                            
-                            <li>
-                                <p class="mdp">
-                                    <span><em>
-                                        <a href="#">Mot de passe oublié ?</a>
-                                        </em></span>
-                                </p>
-                            </li>
-                        </ul>
-                    
-                    </form>
-
-                    <button class="connexionButton" type="submit" name="sumbit">
-                        <p>Connexion</p>
-                        <div class="picto-arrow"></div>
-                    </button>
-                </div>
-                
+                <!--Shadow-->
+                <div class="slider-shadow"></div>
+        		<!--Navigation-->
+                <ul id="control-buttons" class="control-buttons"></ul>
             </section>
+        </section>
+
+        <!--Section droite-->
+        <section class="connexion sectionRight">
+            <ul class="menu">
+                <li><a href="#">Inscription</a></li>
+                <li class="selected"><a href="#">Connexion</a></li>
+                <li><a href="#">Quitter</a></li>
+            </ul>
+            <div class="formConnexion">
+                <form action="../formConnexion.php" id="connect-form" method="post">
+                    <h2>Connexion</h2>
+                    <ul class=forms>
+                        <li>
+                            <div class="picto-mail"></div>
+                            <input type="email" name="identifiant" id="form-mail-connexion" placeholder="Adresse e-mail" required/>
+                        </li>
+                        <li>
+                            <div class="picto-password"></div>
+                            <input type="password" name="password" id="form-password" placeholder="Mot de passe" required/>
+                        </li>
+                            
+                        <li>
+                            <p class="mdp">
+                                <span><em>
+                                    <a href="#">Mot de passe oublié ?</a>
+                                    </em></span>
+                            </p>
+                        </li>
+                    </ul>
+                </form>
+                <button class="connexionButton" type="submit" name="sumbit">
+                    <p>Connexion</p>
+                    <div class="picto-arrow"></div>
+                </button>
+            </div>
+        </section>
         
         
 
@@ -182,8 +152,6 @@
         
         
 
-        
-        </script>
     </body>
 
     <!-- Wow -->

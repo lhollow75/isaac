@@ -7,6 +7,10 @@
 			</div>
 			<form action="register.php" method="post" id="register-form" class="row">
 				<div class="column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    
+                    
+                    
+                    
 					<input type="text" name="nom" value="" placeholder="Votre nom.." required><span class="">*</span>
 					<input type="text" name="prenom" value="" placeholder="Votre prénom.." required><span class="">*</span>
 					<input type="email" name="email" value="" placeholder="Votre email.." required><span class="">*</span>
