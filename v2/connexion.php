@@ -103,18 +103,18 @@
             <ul class="menu">
                 <li><a href="#">Inscription</a></li>
                 <li class="selected"><a href="#">Connexion</a></li>
-                <li><a href="#">Quitter</a></li>
+                <li><a href="#"><div class="picto-quit"></div></a></li>
             </ul>
             <div class="formConnexion">
                 <form action="../formConnexion.php" id="connect-form" method="post">
                     <h2>Connexion</h2>
                     <ul class=forms>
                         <li>
-                            <div class="picto-mail"></div>
-                            <input type="email" name="identifiant" id="form-mail-connexion" placeholder="Adresse e-mail" required/>
+                            <label class="picto-mail" for="identifiant"></label>
+                            <input type="email" name="identifiant" id="form-mail-connexion" placeholder="Adresse e-mail" autofocus required/>
                         </li>
                         <li>
-                            <div class="picto-password"></div>
+                            <label class="picto-password" for="password"></label>
                             <input type="password" name="password" id="form-password" placeholder="Mot de passe" required/>
                         </li>
                             
