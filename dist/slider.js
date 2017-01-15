@@ -100,6 +100,6 @@ $(function() {
 		return pb;
 	 }());
 
-	 SliderModule.init({duration: 4000});
+	 SliderModule.init({duration: 24000});
 
 });

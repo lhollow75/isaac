@@ -92,8 +92,6 @@
                         </div>
                     </li>
                 </ul>
-                <!-- Shadow -->
-                <div class="slider-shadow"></div>	
                 <!-- Navigation -->
                 <ul id="control-buttons" class="control-buttons"></ul>
             </section>
@@ -145,7 +143,7 @@
             </div>
         </section>
 
-        <script src="http://www.isaac-ia.com/dist/slider.js"></script>
+        <script src="./dist/slider.js"></script>
 
         <!--Analytics Google-->
         <script>
