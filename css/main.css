@@ -7,7 +7,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #242c38;
+  background: #fff;
   font-family: 'Roboto';
   font-size: 62.5%;
   margin: 0;
@@ -731,7 +731,7 @@ h2 {
       font-size: 1.8em; } }
 
 .description p {
-  font-size: 1.5em;
+  font-size: 1.7em;
   line-height: 1.3em;
   font-weight: 400;
   margin-bottom: 15px; }
@@ -773,7 +773,7 @@ h2 {
 
 #section7 {
   clear: both;
-  padding: 60px 8.11111%;
+  padding: 60px 8.11111% 0 8.11111%;
   margin: 0;
   overflow: hidden;
   overflow: -moz-scrollbars-none;
@@ -881,7 +881,7 @@ h2 {
           width: 97%;
           text-align: center; } }
       #section3 .description .article img {
-        max-width: 146px;
+        max-width: 80px;
         float: left; }
         @media (max-width: 768px) {
           #section3 .description .article img {
@@ -891,7 +891,7 @@ h2 {
         color: #3e3e3e;
         text-align: left;
         line-height: 1.3em;
-        margin-left: 170px;
+        margin-left: 100px;
         width: 60.66667%; }
         @media (max-width: 1200px) {
           #section3 .description .article p {
@@ -899,8 +899,7 @@ h2 {
         @media (max-width: 768px) {
           #section3 .description .article p {
             text-align: center;
-            margin: 10px auto 0px auto;
-            width: 100%; } }
+            margin: 10px auto 0px auto; } }
 
 #section4 {
   clear: both;
@@ -919,9 +918,9 @@ h2 {
       color: #fff;
       text-align: center;
       text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
-      font-size: 1.5em;
+      font-size: 2em;
       margin: 50px auto;
-      font-weight: 100; }
+      font-weight: 400; }
 
 .bg1 {
   background: url(../img/s5-bg.png) no-repeat center top;
@@ -962,7 +961,7 @@ footer {
   overflow: auto;
   overflow: -moz-scrollbars-none; }
   footer .footer-line {
-    padding: 10px 0 60px 0;
+    padding: 0px 0 30px 0;
     border-top: 1px solid #617086; }
   footer .signature {
     font-size: 0.5em;
@@ -981,8 +980,9 @@ footer {
         width: 100%;
         text-align: center; } }
     footer .signature p {
-      margin-top: 0;
-      text-align: left; }
+      margin-top: 1px;
+      text-align: left;
+      font-size: 9px; }
       footer .signature p a {
         text-decoration: none;
         color: #d4d8de; }
@@ -1030,17 +1030,13 @@ footer {
 
 #facebook {
   background: url(../img/rs-facebook-logo.svg) no-repeat center;
-  width: 24px;
-  height: 24px; }
+  width: 16px;
+  height: 16px; }
 
 #twitter {
   background: url(../img/rs-twitter-logo.svg) no-repeat center;
-  width: 24px;
-  height: 24px; }
-
-#linkedin {
-  background-image: url(../img/rs-linkedin-logo.svg) no-repeat;
-  background-size: 24px; }
+  width: 16px;
+  height: 16px; }
 
 #mentions {
   clear: both;
