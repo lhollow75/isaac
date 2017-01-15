@@ -565,7 +565,6 @@ input[type=email] {
   text-align: center;
   display: block;
   float: left;
-  border: none;
   color: #7b7b7b;
   margin: auto;
   width: 90%;
@@ -578,9 +577,6 @@ input[type=email] {
   border-right: none;
   border-radius: 10px 0 0 10px;
   background-color: #fff; }
-  @media (max-width: 1200px) {
-    input[type=email] {
-      width: 90%; } }
   @media (max-width: 768px) {
     input[type=email] {
       width: 100%;
@@ -607,7 +603,6 @@ input#form-mail {
     input#form-mail {
       width: 100%;
       height: 50px;
-      font-size: 0.75em;
       padding: 0px;
       border-radius: 5px; } }
 
@@ -628,13 +623,13 @@ textarea#form-message {
     textarea#form-message {
       width: 100%;
       border: 1px solid #c4c4c4;
-      border-radius: 7px; } }
+      border-radius: 5px 5px 0 0; } }
   @media (max-width: 768px) {
     textarea#form-message {
       width: 100%;
       height: 220px;
       padding: 10px 0px;
-      border-radius: 5px;
+      border-radius: 5px 5px 0 0;
       border: 1px solid #c4c4c4; } }
 
 .form-button {
@@ -685,6 +680,7 @@ textarea#form-message {
   padding: 10px 10px;
   border-left: none;
   max-width: 930px;
+  margin-top: -2px;
   border-radius: 0 10px 10px 0; }
   @media (max-width: 1200px) {
     .button2 {
@@ -735,10 +731,6 @@ button#getform {
   text-align: center;
   vertical-align: middle;
   margin: 2px auto; }
-  @media (max-width: 1200px) {
-    .button button {
-      height: 100%;
-      width: 100%; } }
   @media (max-width: 768px) {
     .button button {
       height: 100%;
@@ -751,11 +743,6 @@ button#getform {
   font-size: 1.3em;
   color: #fff;
   border: none; }
-  @media (max-width: 1200px) {
-    .sendmail::before {
-      display: block;
-      margin-top: 17px;
-      margin-left: -12px; } }
   @media (max-width: 768px) {
     .sendmail::before {
       display: block;
@@ -770,11 +757,41 @@ button#getform {
   background: url(../img/sent-mail.svg) no-repeat center;
   vertical-align: middle;
   margin: auto; }
-  @media (max-width: 1200px) {
-    .sendmail {
-      background: none; } }
   @media (max-width: 768px) {
     .sendmail {
+      background: none; } }
+
+.sendmail2::before {
+  display: none;
+  content: "Envoyer";
+  vertical-align: middle;
+  font-size: 1.3em;
+  color: #fff;
+  border: none; }
+  @media (max-width: 1200px) {
+    .sendmail2::before {
+      display: block;
+      margin-top: 17px;
+      margin-left: -12px; } }
+  @media (max-width: 768px) {
+    .sendmail2::before {
+      display: block;
+      margin-top: 8px;
+      margin-left: -12px; } }
+
+.sendmail2 {
+  border: none;
+  width: 30px;
+  height: 43px;
+  display: block;
+  background: url(../img/sent-mail.svg) no-repeat center;
+  vertical-align: middle;
+  margin: auto; }
+  @media (max-width: 1200px) {
+    .sendmail2 {
+      background: none; } }
+  @media (max-width: 768px) {
+    .sendmail2 {
       background: none; } }
 
 h1 {
