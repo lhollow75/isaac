@@ -897,7 +897,7 @@ textarea#form-message {
     padding: 10px 10px;
     //border: 1px solid #c4c4c4;
     border-left: none;
-    max-width: 930px;
+    //max-width: 930px;
     margin-top: -2px;
     border-radius: 0 10px 10px 0;
     //background-color: #fff;
@@ -940,16 +940,21 @@ button#getform {
     text-align: right;
     vertical-align: middle;
     margin: auto;
+    margin-right: -11px;
     float: right;
 
     
     
     @media (max-width: 1200px){
+    margin: auto;
+
         float: none;
         height: 25px;
 
     }
     @media (max-width: 768px){
+        margin: auto;
+
         float: none;
         height: 25px;
     }
