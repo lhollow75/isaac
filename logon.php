@@ -145,7 +145,7 @@
             </div>
         </section>
 
-        <script src="dist/slider.js"></script>
+        <script src="http://www.isaac-ia.com/dist/slider.js"></script>
 
         <!--Analytics Google-->
         <script>
