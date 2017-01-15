@@ -559,7 +559,7 @@ video {
 input:focus, textarea:focus, button {
   outline: none; }
 
-input[type=email] {
+input#mce-EMAIL, input#form-mail {
   font-size: 1.5em;
   font-weight: 300;
   text-align: center;
@@ -578,7 +578,7 @@ input[type=email] {
   border-radius: 10px 0 0 10px;
   background-color: #fff; }
   @media (max-width: 768px) {
-    input[type=email] {
+    input#mce-EMAIL, input#form-mail {
       width: 100%;
       padding: 0px;
       border-radius: 5px 5px 0 0; } }

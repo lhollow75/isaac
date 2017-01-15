@@ -726,13 +726,12 @@ input:focus, textarea:focus, button {
     outline: none;
 }
 
-input[type=email] {
+input#mce-EMAIL, input#form-mail {
     font-size: 1.5em;
     font-weight: 300;
     text-align: center;
     display: block;
     float: left;
-    //border: none;
     color: #7b7b7b;
     margin: auto;
     width: 90%;
