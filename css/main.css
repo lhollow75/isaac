@@ -603,7 +603,7 @@ input#form-mail {
   border-radius: 10px;
   width: 100%;
   max-width: 100%;
-  padding: 0px;
+  padding: 10px;
   color: #7b7b7b; }
   @media (max-width: 1200px) {
     input#form-mail {
@@ -625,7 +625,7 @@ textarea#form-message {
   border: 1px solid #c4c4c4;
   border-radius: 10px;
   width: 100%;
-  padding: 0px;
+  padding: 10px;
   color: #7b7b7b;
   resize: none;
   margin-top: 24px;
