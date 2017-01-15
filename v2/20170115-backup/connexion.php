@@ -74,11 +74,11 @@
             
             <!--Section gauche-->
             <section class="connexion sectionLeft">
-                <!--<div class="slider"></div>-->
                     
                     
 
-	
+	            <div class="slider-logo-isaac"><img src="./img/isaac-logo.svg"></div>
+
 	<!-- ==================================== 
 	Contenedor Slider 
 	=======================================-->
@@ -113,13 +113,7 @@
 	</section>
 	
 
-	</p>
-                    
-                    
-            
-                
-                
-            </section>
+
             
             <!--Section droite-->
             <section class="connexion sectionRight">

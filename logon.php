@@ -73,6 +73,7 @@
             
         <!--Section gauche-->
         <section class="connexion sectionLeft">
+            <div class="slider-logo-isaac"><img src="./img/isaac-logo.svg"></div>
             <!--Slider-->
             <section id="slider" class="container">
         		<ul class="slider-wrapper">

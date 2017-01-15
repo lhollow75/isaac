@@ -20,6 +20,15 @@ $couleur8: #32425b; // section footer
 
 /*--SLIDER--*/
 
+.slider-logo-isaac {
+    position: absolute;
+    z-index: 99999999;
+    top : 20px;
+    left: 20px;
+    width: 30%;
+    max-width: 200px;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -48,8 +57,12 @@ ul {
 }
 
 a {
-	color: #00c5b9;
+	color: #8492af;
 	text-decoration: none;
+}
+
+a:hover {
+	color: #00c5b9;
 }
 
 h1 {
