@@ -802,10 +802,12 @@ button#getform {
   margin: auto; }
   @media (max-width: 1200px) {
     .sendmail2 {
-      background: none; } }
+      background: none;
+      margin: -12px auto auto 32px; } }
   @media (max-width: 768px) {
     .sendmail2 {
-      background: none; } }
+      background: none;
+      margin: -12px auto auto 32px; } }
 
 h1 {
   font-size: 40px;
