@@ -58,6 +58,13 @@ a {
   color: #00c5b9;
   text-decoration: none; }
 
+h1 {
+  color: #FFF;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 2.4em; }
+
 /** ---------------------------------------
  * Slider 
  ----------------------------------------*/
@@ -1052,4 +1059,4 @@ footer {
     font-weight: 300;
     color: #3e3e3e; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=mainv2.css.map */
