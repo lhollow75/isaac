@@ -78,14 +78,16 @@
             <section id="slider" class="container">
         		<ul class="slider-wrapper">
             		<li class="current-slide">
-                        <img src="http://www.isaac-ia.com/img/connexion/slide1.jpg" title="" alt="">
+                        <div class="slide1"></div>
+                        <!--<img src="http://www.isaac-ia.com/img/connexion/slide1.jpg" title="" alt="">-->
                         <div class="caption">
                             <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, placeat est. Alias illo hic quo nobis, aspernatur iste ut voluptate.&rdquo;</p>
                             <h2 class="slider-title">Grégory N. - Le poing levé</h2>
                         </div>
                     </li>
                     <li>
-                        <img src="http://www.isaac-ia.com/img/connexion/slide2.jpg" title="" alt="">
+                        <div class="slide2"></div>
+                        <!--<img src="http://www.isaac-ia.com/img/connexion/slide2.jpg" title="" alt="">-->
                         <div class="caption">
                             <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iusto placeat aliquid tempore harum, similique !"</p>
                             <h2 class="slider-title">John Edwin Graf - The Wild Mix</h2>

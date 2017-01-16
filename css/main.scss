@@ -5,12 +5,11 @@ $grid-width: 61px;
 $gutter: 20px;
 
 //Couleurs de fond
-$color0: #ffffff;
+$color0: #fff;
 $couleur1: #202a36; // intro
-$couleur2: #ffffff; // section 1
+$couleur2: #fff; // section 1
 $couleur3: #eff6fb; // section 2
 $couleur4: #D3F2FF; // section 3
-$couleur4bis: #ffffff; // section 3 
 $couleur5: #32425b; // section 4
 $couleur6: #32425B; // section 5 
 $couleur6bis: #3D89AD; // section 5 
@@ -27,7 +26,7 @@ $couleur8: #32425b; // section footer
 }
 
 body {
-	background: #fff;
+	background: $color0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 62.5%;
     margin: 0;
@@ -58,7 +57,7 @@ a:hover {
 }
 
 h1 {
-	color: #FFF;
+	color: $color0;
 	text-align: center;
 	margin-top: 30px;
 	font-weight: 300;
@@ -68,6 +67,7 @@ h1 {
 
 
 /*------Slider------*/
+
 
 
 .slider-logo-isaac {
@@ -105,13 +105,29 @@ h1 {
 	position: relative;
 }
 
-.slider-wrapper img {
+/*.slider-wrapper img {
 	position: absolute;
     margin: auto;
 	top: 50%;
 	left: 50%;
     transform: translate(-50%, -50%);
+}*/
+
+.slide1 {
+    background: url("http://www.isaac-ia.com/img/connexion/slide1.jpg") center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border: none;
 }
+.slide2 {
+    background: url("http://www.isaac-ia.com/img/connexion/slide2.jpg") center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border: none;
+}
+
 
 /*------Caption------*/
 .slider-wrapper .caption {
@@ -165,7 +181,7 @@ h1 {
 }
 
 .control-buttons li.active {
-	background: #fff;
+	background: $color0;
 }
 
 .connexion {
@@ -224,7 +240,7 @@ h1 {
 .menu li a {
     font-size: 13px;
     font-weight: 500;
-    color: #fff;
+    color: $color0;
     text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 }
@@ -419,7 +435,7 @@ input#cbox1, input#cbox2 {
 
 .connexionButton:hover {
     background: #51add5;
-    color: #fff;
+    color: $color0;
 }
 
 
@@ -551,7 +567,7 @@ video{
     max-width: 300px;
     min-width: 300px;
     transition: all 300ms ease; 
-    color: #fff;
+    color: $color0;
     font-size: 1em;
     text-align: center;
     text-decoration: none;
@@ -572,7 +588,7 @@ video{
     overflow: hidden;
     overflow: -moz-scrollbars-none;
     padding: $grid-height 0;
-    color: #fff;
+    color: $color0;
     
     @media (max-width: 1200px){
         padding: $grid-height 0;
@@ -645,7 +661,7 @@ input#mce-EMAIL, input#form-mail {
     border: 1px solid #c4c4c4;
     border-right: none;
     border-radius: 10px 0 0 10px;
-    background-color: #fff;
+    background-color: $color0;
     
     @media (max-width: 1200px){
     }
@@ -727,7 +743,7 @@ textarea#form-message {
     //max-width: 590px;
 
     //border-radius: 0 10px 10px 0;
-    //background-color: #fff;
+    //background-color: $color0;
     
     
     @media (max-width: 1200px){
@@ -761,7 +777,7 @@ textarea#form-message {
     max-width: 590px;
 
     border-radius: 0 10px 10px 0;
-    background-color: #fff;
+    background-color: $color0;
     
     
     @media (max-width: 1200px){
@@ -788,7 +804,7 @@ textarea#form-message {
     //max-width: 930px;
     margin-top: -2px;
     border-radius: 0 10px 10px 0;
-    //background-color: #fff;
+    //background-color: $color0;
     
     
     @media (max-width: 1200px){
@@ -876,7 +892,7 @@ button#getform {
     content: "Envoyer";
     vertical-align: middle;
     font-size: 1.3em;
-    color: #fff;
+    color: $color0;
     border: none;
 
     
@@ -914,7 +930,7 @@ button#getform {
     content: "Envoyer";
     vertical-align: middle;
     font-size: 1.3em;
-    color: #fff;
+    color: $color0;
     border: none;
 
     
@@ -1015,7 +1031,7 @@ h2 {
 }
 
 #section6 .content .bg .description h1{
-    color: #fff;
+    color: $color0;
 }
 
 
@@ -1039,7 +1055,7 @@ h2 {
     margin: 0;
     overflow:hidden;
     overflow: -moz-scrollbars-none;
-    background-color: #fff;
+    background-color: $color0;
 }
 
 
@@ -1051,7 +1067,7 @@ h2 {
     margin: 0;
     overflow:hidden;
     overflow: -moz-scrollbars-none;
-    background-color: #fff;
+    background-color: $color0;
 
 
     .description{
@@ -1162,22 +1178,22 @@ h2 {
     
     
 /* IE10+ */ 
-background-image: -ms-linear-gradient(top, #D3F2FF 0%, #fff 50%);
+background-image: -ms-linear-gradient(top, #D3F2FF 0%, $color0 50%);
 
 /* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #D3F2FF 0%, #fff 50%);
+background-image: -moz-linear-gradient(top, #D3F2FF 0%, $color0 50%);
 
 /* Opera */ 
-background-image: -o-linear-gradient(top, #D3F2FF 0%, #fff 50%);
+background-image: -o-linear-gradient(top, #D3F2FF 0%, $color0 50%);
 
 /* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D3F2FF), color-stop(50, #fff));
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D3F2FF), color-stop(50, $color0));
 
 /* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #D3F2FF 0%, #fff 50%);
+background-image: -webkit-linear-gradient(top, #D3F2FF 0%, $color0 50%);
 
 /* W3C Markup */ 
-background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
+background-image: linear-gradient(to bottom, #D3F2FF 0%, $color0 50%);
     
     
     
@@ -1260,7 +1276,7 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
         margin: auto;
         text-align: center;
         p {
-            color: #fff;
+            color: $color0;
             text-align: center;
             text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
             font-size: 2em;
@@ -1289,7 +1305,7 @@ background-image: linear-gradient(to bottom, #D3F2FF 0%, #fff 50%);
 #section6{
     background-color: #32425b;
     padding: $grid-height 100% /9 - 3;
-    color: #fff;
+    color: $color0;
     overflow: auto;
     
     .bg{
