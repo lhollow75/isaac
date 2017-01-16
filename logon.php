@@ -112,7 +112,11 @@
                     <ul id="forms">
                         <li>
                             <label class="picto-user" for="nom"></label>
-                            <input type="text" name="nom" id="form-nom-connexion" placeholder="Nom Prénom" autofocus required/>
+                            <input type="text" name="nom" id="form-nom-connexion" placeholder="Nom" autofocus required/>
+                        </li>
+                        <li>
+                            <label class="picto-user" for="prenom"></label>
+                            <input type="text" name="nom" id="form-prenom-connexion" placeholder="Prénom" autofocus required/>
                         </li>
                         <li>
                             <label class="picto-mail" for="email"></label>
