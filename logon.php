@@ -112,7 +112,7 @@
                     <ul id="forms">
                         <li>
                             <label class="picto-user" for="nom"></label>
-                            <input type="text" name="nom" id="form-mail-connexion" placeholder="Nom Prénom" autofocus required/>
+                            <input type="text" name="nom" id="form-nom-connexion" placeholder="Nom Prénom" autofocus required/>
                         </li>
                         <li>
                             <label class="picto-mail" for="email"></label>
@@ -124,11 +124,11 @@
                         </li>
                         <li>
                             <label class="picto-password" for="password-verif"></label>
-                            <input type="password" name="password-verif" id="form-password" placeholder="Confirmation du mot de passe" required/>
+                            <input type="password" name="password-verif" id="form-password-2" placeholder="Confirmation du mot de passe" required/>
                         </li>
                         <li>
                             <label>
-                                <input type="checkbox" id="cbox1" value="checkbox1" required>Je m’inscris à la newsletter pour recevoir toute l’actualité d’Isaac
+                                <input type="checkbox" id="cbox1" value="checkbox1">Je m’inscris à la newsletter pour recevoir toute l’actualité d’Isaac
                             </label>
                         </li>
                         <li>
