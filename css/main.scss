@@ -188,8 +188,17 @@ h1 {
     top: 0;
     bottom: -120px;
     z-index: -1;
+    width: 100%;
+}
+.admin-boardback {
+    background-color: #f6f7fa;
+    position: fixed;
+    top: 0;
+    bottom: -120px;
+    z-index: -1;
     width: 195px;
 }
+
 
 .societeMenu {
     position: relative;
