@@ -7,7 +7,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #fff;
+  background: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
   margin: 0;
@@ -47,10 +47,6 @@ h1 {
   width: 30%;
   max-width: 200px; }
 
-/*.container {
-	width: 100%;
-	margin: 0 auto;
-}*/
 .slider-wrapper {
   z-index: 100;
   position: relative;
@@ -139,22 +135,34 @@ h1 {
 .control-buttons li.active {
   background: #fff; }
 
+/*---------*/
 /*DASHBOARD*/
+/*---------*/
+.admin-menuback {
+  background-color: #32425b;
+  position: fixed;
+  top: 0;
+  bottom: -120px;
+  z-index: -1;
+  width: 195px; }
+
 .societeMenu {
   position: relative;
   color: #fff;
   background-color: #32425b;
-  width: 10%;
+  width: 195px;
   float: left;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
-  min-width: 195px;
-  height: 100vh; }
+  min-height: 100vh; }
+  @media (max-width: 768px) {
+    .societeMenu {
+      width: 40px; } }
 
 .societeBoard {
   background-color: #f6f7fa;
-  height: 100vh;
+  min-height: 100vh;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
   overflow: hidden; }
@@ -171,19 +179,30 @@ h1 {
   border-bottom: 1px solid #25314b;
   border-left: 5px solid #32425b;
   padding-left: 40px;
+  width: 195px;
   transition: all 0.3s ease; }
 
 .menuBO li:hover {
   background-color: #25314b;
   border-left: 5px solid #4baddc;
   transition: all 0.3s ease;
-  cursor: pointer; }
+  cursor: pointer;
+  padding-left: 45px; }
 
 .question {
   padding-left: 18px; }
 
 .logo {
-  text-align: center; }
+  text-align: center;
+  height: 59px;
+  width: 195px;
+  background: url("../img/isaac-logo.svg") no-repeat center;
+  background-size: 85%; }
+  @media (max-width: 768px) {
+    .logo {
+      background: url("../img/isaac-picto.svg") no-repeat left;
+      background-size: 15%;
+      background-position: 6px 25px; } }
 
 .logo img {
   padding: 15px 0px;
@@ -258,7 +277,8 @@ select#forme-juridique {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #0e1a35;
-  margin: 25px auto 25px 25px; }
+  margin: 25px auto 25px 25px;
+  max-width: 740px; }
 
 .societeBoard p {
   font-weight: 300;
@@ -314,11 +334,46 @@ textarea#description {
   font-weight: 300; }
 
 .menu-account {
-  float: right; }
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px; }
 
 .menu-account li {
   list-style: none;
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 3px; }
+
+.menu-account li img {
+  margin-top: -12px;
+  width: 35px;
+  height: 35px; }
+
+.picto-bell {
+  float: left;
+  background: url("../img/dashboard/picto-bell.svg") no-repeat center;
+  height: 18px;
+  width: 18px; }
+
+.badge1 {
+  position: relative; }
+
+.badge1[data-badge]:after {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  content: attr(data-badge);
+  position: absolute;
+  top: -20px;
+  right: -7px;
+  font-size: .7em;
+  background: #4baddc;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 16px;
+  border-radius: 50%;
+  box-shadow: 0 0 1px #ccc; }
 
 .bo-checkbox {
   font-weight: 300;
