@@ -187,7 +187,7 @@ h1 {
   width: 195px;
   transition: all 0.3s ease; }
 
-.menuBO li:hover {
+.menuBO li:hover, li.picto2.selected {
   background-color: #25314b;
   border-left: 5px solid #4baddc;
   transition: all 0.3s ease;
@@ -198,7 +198,8 @@ h1 {
   position: absolute;
   padding-left: 18px;
   height: 20px;
-  bottom: 20px; }
+  bottom: 20px;
+  display: none; }
 
 .picto8 {
   background: url(../img/dashboard/noun_781972.svg) no-repeat left;
@@ -299,7 +300,8 @@ select#forme-juridique {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #8492af;
-  margin: 25px auto 25px 35px; }
+  margin: 25px auto 25px 35px;
+  max-width: 730px; }
 
 .header {
   background-color: #fff;
@@ -604,10 +606,20 @@ textarea#description {
   transform: rotate(180deg);
   transition: 0.3s ease-in-out; }
 
-.selected {
-  border-bottom: 5px solid #51add5;
-  padding-bottom: 0px;
-  transition: 0.1s linear; }
+.intercom {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999999; }
+
+.intercom-badge {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 2px #ccc;
+  background: url("../img/isaac-picto.svg") no-repeat center; }
 
 .formConnexion {
   width: 100%;
