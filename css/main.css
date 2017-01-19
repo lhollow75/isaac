@@ -628,7 +628,7 @@ textarea#description {
   transition: 0.3s ease-in-out; }
 
 .intercom {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 999999; }
