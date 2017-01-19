@@ -404,6 +404,27 @@ textarea#description {
 .bo-checkbox:last-child {
   margin-bottom: 20px !important; }
 
+.label:before {
+  float: left;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #a273d4;
+  display: inline-block;
+  margin-right: 5px; }
+
+.bo-checkbox input {
+  position: absolute;
+  left: -9999px; }
+  .bo-checkbox input:hover + label {
+    color: #4baddc; }
+  .bo-checkbox input:hover + label:before {
+    content: "";
+    border: 1px solid #4baddc; }
+  .bo-checkbox input:checked + label:before {
+    content: "";
+    background: url("../img/dashboard/noun_702757_cc.svg") no-repeat; }
+
 .picto-nom-societe {
   float: left;
   border: none;
@@ -619,7 +640,13 @@ textarea#description {
   border-radius: 50px;
   background-color: #fff;
   box-shadow: 0 0 2px #ccc;
-  background: url("../img/isaac-picto.svg") no-repeat center; }
+  background: url("../img/dashboard/isaac-badge.svg") no-repeat center;
+  transition: 0.3s linear; }
+
+.intercom-badge:hover {
+  background: url("../img/dashboard/isaac-badge-hover.svg") no-repeat center;
+  transform: rotate(360deg);
+  transition: 0.3s linear; }
 
 .formConnexion {
   width: 100%;

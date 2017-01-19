@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ISAAC Options</title>
+    <link rel="stylesheet" href="plugin.css">
+
+</head>
+
+<body>
+	<h1>Options de l'extension</h1>
+		<h2>A propos de vous</h2>
+    
+        <ul>
+            <li>
+                <label for="login"></label><input type="text" name="login" id="login" placeholder="Login"/>
+            </li>
+            <li>
+                <label for="nom"></label><input type="text" name="nom" id="nom" placeholder="Nom"/>
+            </li>
+            <li>
+                <label for="prenom"></label><input type="text" name="prenom" id="prenom" placeholder="Prénom"/>
+            </li>
+        </ul>
+		<h2>A propos de votre société</h2>
+        
+        <ul>
+            <li>
+                <label class="picto-nom-societe" for="nom-societe"></label><input type="text" name="nom" id="nom-societe" placeholder="Nom de la société"/>
+            </li>
+            
+            <li>
+                <label class="picto-forme-juridique" for="forme-juridique"></label>
+                <select name="forme-juridique" id="forme-juridique">
+                    <option value="eurl">EURL</option>
+                    <option value="sasu">SASU</option>
+                    <option value="snc">SNC</option>
+                    <option value="sarl">SARL</option>
+                    <option value="sa">SA</option>
+                    <option value="sas">SAS</option>
+                    <option value="sca">SCA</option>
+                    <option value="sc">Société civile</option>
+                    <option value="ac">Agents commerciaux</option>
+                    <option value="gie">GIE</option>
+                </select>
+            </li>
+		
+            <li>
+                <label class="picto-email-societe" for="email-societe"></label>
+                <input type="email" name="email-societe" id="email-societe" placeholder="Adresse e-mail de la société"/>
+            </li>
+            
+            <li>
+                <label class="picto-siret" for="siret"></label>
+                <input type="text" name="siret" id="siret" placeholder="Numéro de SIRET"/>
+            </li>
+            <li>
+                <label class="picto-tel" for="tel"></label>
+                <input type="tel" name="telephone" id="telephone" placeholder="Numéro de téléphone"/>
+            </li>
+		  </ul>
+		<label><input type="checkbox" id="auto" value="checkbox1">Je souhaite qu'ISAAC pré-remplisse automatiquement tous les formulaires se trouvant sur les pages web que je visite</label>
+		<br />
+		<br />
+		<!-- 
+		<label for="nom">Couleur préférée</label>
+		<select name="couleur" id="couleur">
+			<option value="green">vert</option>
+			<option value="red">rouge</option>
+			<option value="blue">bleu</option>
+			<option value="white">blanc</option>
+			<option value="white">gris</option>
+		</select>
+		-->
+		<input type="button" id="enregistrer" value="enregistrer"/>
+		<label id="ok">Vos données ont bien été enregistrées</label>
+
+	<script src="page_options.js"></script>
+</body>
+</html>
