@@ -1,9 +1,13 @@
+<?php
+session_start();
+// require ('../connexionbdd.php');
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<title>ISAAC - Intelligence artificielle</title>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../../isaac/css/main.css">
         <link rel="stylesheet" href="css/animate.css">
         
         <!--Meta -->
@@ -73,8 +77,7 @@
             
         <!--Section gauche-->
         <section class="connexion sectionLeft">
-            <div class="slider-logo-isaac"><img src="http://www.isaac-ia.com/img/isaac-logo.svg"></div>
-            <!--Slider-->
+           <!--Slider-->
             <section id="slider" class="container">
         		<ul class="slider-wrapper">
             		<li class="current-slide">
@@ -98,58 +101,47 @@
                 <ul id="control-buttons" class="control-buttons"></ul>
             </section>
         </section>
-            
+
         <!--Section droite-->
         <section class="connexion sectionRight">
             <ul class="menu">
-                <li class="selected"><a href="#">Inscription</a></li>
-                <li><a href="./v2/connexion.php">Connexion</a></li>
+                <li><a href="../logon.php">Inscription</a></li>
+                <li class="selected"><a href="#">Connexion</a></li>
                 <li><a href="#"><div class="picto-quit"></div></a></li>
             </ul>
             <div class="formConnexion">
                 <form action="../formConnexion.php" id="connect-form" method="post">
-                    <h2>Votre inscription</h2>
-                    <ul id="forms">
+                    <h2>Connexion</h2>
+                    <ul id=forms>
                         <li>
-                            <label class="picto-user" for="nom"></label>
-                            <input type="text" name="nom" id="form-nom-connexion" placeholder="Nom" autofocus required/>
-                        </li>
-                        <li>
-                            <label class="picto-user" for="prenom"></label>
-                            <input type="text" name="nom" id="form-prenom-connexion" placeholder="Prénom" autofocus required/>
-                        </li>
-                        <li>
-                            <label class="picto-mail" for="email"></label>
-                            <input type="email" name="email" id="form-mail-connexion" placeholder="Adresse e-mail" required/>
+                            <label class="picto-mail" for="identifiant"></label>
+                            <input type="email" name="identifiant" id="form-mail-connexion" placeholder="Adresse e-mail" autofocus required/>
                         </li>
                         <li>
                             <label class="picto-password" for="password"></label>
                             <input type="password" name="password" id="form-password" placeholder="Mot de passe" required/>
                         </li>
+                            
                         <li>
-                            <label class="picto-password" for="password-verif"></label>
-                            <input type="password" name="password-verif" id="form-password-2" placeholder="Confirmation du mot de passe" required/>
-                        </li>
-                        <li>
-                            <label>
-                                <input type="checkbox" id="cbox1" value="checkbox1">Je m’inscris à la newsletter pour recevoir toute l’actualité d’Isaac
-                            </label>
-                        </li>
-                        <li>
-                            <label>
-                                <input type="checkbox" id="cbox2" value="checkbox2" required>J’accepte les <a href="#">Conditions Générales d’Utilisations</a>
-                            </label>
+                            <p class="mdp">
+                                <span><em>
+                                    <a href="#">Mot de passe oublié ?</a>
+                                    </em></span>
+                            </p>
                         </li>
                     </ul>
+					<button class="connexionButton" type="submit" name="sumbit">
+						<p>Connexion</p>
+                    <div class="picto-arrow"></div>
+                </button>
                 </form>
-                    <button class="connexionButton" type="submit" name="sumbit">
-                        <p>S'inscrire</p>
-                        <div class="picto-arrow"></div>
-                    </button>
+                
             </div>
         </section>
+        
+        
 
-        <script src="./dist/slider.js"></script>
+    <script src="dist/slider.js"></script>
 
         <!--Analytics Google-->
         <script>
@@ -160,8 +152,11 @@
 
           ga('create', 'UA-89779336-1', 'auto');
           ga('send', 'pageview');
+
         </script>
-    
+        
+        
+
     </body>
 
     <!-- Wow -->
