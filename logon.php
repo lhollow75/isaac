@@ -107,7 +107,7 @@
                 <li><a href="#"><div class="picto-quit"></div></a></li>
             </ul>
             <div class="formConnexion">
-                <form action="../formConnexion.php" id="connect-form" method="post">
+                <form action="./register.php" id="connect-form" method="post">
                     <h2>Votre inscription</h2>
                     <ul id="forms">
                         <li>
@@ -116,7 +116,7 @@
                         </li>
                         <li>
                             <label class="picto-user" for="prenom"></label>
-                            <input type="text" name="nom" id="form-prenom-connexion" placeholder="Prénom" autofocus required/>
+                            <input type="text" name="prenom" id="form-prenom-connexion" placeholder="Prénom" autofocus required/>
                         </li>
                         <li>
                             <label class="picto-mail" for="email"></label>
@@ -141,11 +141,12 @@
                             </label>
                         </li>
                     </ul>
-                </form>
-                    <button class="connexionButton" type="submit" name="sumbit">
+					<button class="connexionButton" type="submit" name="sumbit">
                         <p>S'inscrire</p>
                         <div class="picto-arrow"></div>
                     </button>
+                </form>
+                    
             </div>
         </section>
 
